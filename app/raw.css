@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;900&display=swap");
+
+body,
+html {
+	font-family: "League Spartan", monospace;
+	font-smooth: smooth;
+	-webkit-font-smoothing: antialiased;
+	overflow: overlay;
+}

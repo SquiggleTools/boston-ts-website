@@ -5,4 +5,7 @@ export const [themeClass, vars] = createTheme({
 		background: "#3178c6",
 		foreground: "#ffffff",
 	},
+	sizes: {
+		hero: "10rem",
+	},
 });

@@ -1,5 +1,8 @@
 import { style } from "@vanilla-extract/css";
 
+import { vars } from "./styles.css";
+
 export const root = style({
-	border: "solid 1px",
+	fontSize: vars.sizes.hero,
+	textAlign: "right",
 });

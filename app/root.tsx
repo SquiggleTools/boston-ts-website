@@ -5,10 +5,12 @@ import { Links, LiveReload, Meta, Outlet, Scripts } from "@remix-run/react";
 import clsx from "clsx";
 
 import { HeroHeading } from "./HeroHeading.js";
+import raw from "./raw.css";
 import * as styles from "./root.css";
 import { themeClass } from "./styles.css.js";
 
 export const links: LinksFunction = () => [
+	{ href: raw, rel: "stylesheet" },
 	...(cssBundleHref ? [{ href: cssBundleHref, rel: "stylesheet" }] : []),
 ];
 
@@ -21,7 +23,7 @@ export default function App() {
 				<Links />
 			</head>
 			<body>
-				<HeroHeading>Hello world!</HeroHeading>
+				<HeroHeading>Boston TypeScript</HeroHeading>
 				<Outlet />
 
 				<Scripts />
