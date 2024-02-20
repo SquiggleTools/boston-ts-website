@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@remix-run/css-bundle':
+    specifier: ^2.6.0
+    version: 2.6.0
   '@remix-run/dev':
     specifier: ^2.6.0
     version: 2.6.0(@types/node@20.11.19)(typescript@5.3.3)
@@ -17,6 +20,9 @@ dependencies:
   '@remix-run/react':
     specifier: ^2.6.0
     version: 2.6.0(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
+  '@vanilla-extract/css':
+    specifier: ^1.14.1
+    version: 1.14.1
   express:
     specifier: ^4.18.2
     version: 4.18.2
@@ -1579,6 +1585,11 @@ packages:
       - '@pnpm/logger'
       - domexception
     dev: true
+
+  /@remix-run/css-bundle@2.6.0:
+    resolution: {integrity: sha512-c3I1FVsWeBoA3c92Fwa1sufxAlosovfE2V7hwjc9HeQHA3DAHe18RXfgU6my/IvpItkIvaEgQPuoWEA6Dh8VDQ==}
+    engines: {node: '>=18.0.0'}
+    dev: false
 
   /@remix-run/dev@2.6.0(@types/node@20.11.19)(typescript@5.3.3):
     resolution: {integrity: sha512-wf5DoKxBwz3/84FNyFM6NKvQIOEv+Ukwj9DjXrDs6YLI6oSqw2XsJCxWN4lAbOxXuK37pBt1WAE8LzEMuyowsw==}

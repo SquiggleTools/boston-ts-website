@@ -6,8 +6,8 @@
 		"esModuleInterop": true,
 		"isolatedModules": true,
 		"jsx": "react-jsx",
-		"module": "NodeNext",
-		"moduleResolution": "NodeNext",
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
 		"noEmit": true,
 		"outDir": "lib",
 		"paths": {
