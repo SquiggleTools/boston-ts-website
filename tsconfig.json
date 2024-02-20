@@ -1,17 +1,23 @@
 {
 	"compilerOptions": {
+		"baseUrl": ".",
 		"declaration": true,
 		"declarationMap": true,
 		"esModuleInterop": true,
+		"isolatedModules": true,
+		"jsx": "react-jsx",
 		"module": "NodeNext",
 		"moduleResolution": "NodeNext",
 		"noEmit": true,
 		"outDir": "lib",
+		"paths": {
+			"~/*": ["./app/*"]
+		},
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
 		"target": "ES2022"
 	},
-	"include": ["src"]
+	"include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"]
 }
