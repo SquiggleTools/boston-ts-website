@@ -3,9 +3,11 @@
 	"ignorePaths": [
 		".github",
 		"CHANGELOG.md",
-		"lib",
+		".cache",
+		"build",
+		"public",
 		"node_modules",
 		"pnpm-lock.yaml"
 	],
-	"words": ["knip", "packagejson", "tsup"]
+	"words": ["isbot", "knip", "packagejson"]
 }

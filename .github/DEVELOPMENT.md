@@ -11,18 +11,12 @@ pnpm install
 > This repository includes a list of suggested VS Code extensions.
 > It's a good idea to use [VS Code](https://code.visualstudio.com) and accept its suggestion to install them, as they'll help with development.
 
-## Building
+## Dev
 
-Run [**tsup**](https://tsup.egoist.dev) locally to build source files from `src/` into output files in `lib/`:
-
-```shell
-pnpm build
-```
-
-Add `--watch` to run the builder in a watch mode that continuously cleans and recreates `lib/` as you save files:
+Run the [**Remix**](https://remix.run/docs/en/main/start/quickstart) quickstart dev server locally to preview the website:
 
 ```shell
-pnpm build --watch
+pnpm dev
 ```
 
 ## Formatting

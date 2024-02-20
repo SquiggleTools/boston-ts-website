@@ -11,7 +11,14 @@ module.exports = {
 		"plugin:perfectionist/recommended-natural",
 		"plugin:regexp/recommended",
 	],
-	ignorePatterns: ["!.*", "lib", "node_modules", "pnpm-lock.yaml"],
+	ignorePatterns: [
+		"!.*",
+		".cache",
+		"build",
+		"public",
+		"node_modules",
+		"pnpm-lock.yaml",
+	],
 	overrides: [
 		{
 			extends: ["plugin:markdown/recommended"],
@@ -128,6 +135,7 @@ module.exports = {
 		"@typescript-eslint/no-unused-vars": ["error", { caughtErrors: "all" }],
 
 		// These on-by-default rules don't work well for this repo and we like them off.
+		"n/no-unpublished-import": "off",
 		"no-case-declarations": "off",
 		"no-constant-condition": "off",
 		"no-inner-declarations": "off",

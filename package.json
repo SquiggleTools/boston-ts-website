@@ -5,18 +5,12 @@
 	"repository": "JoshuaKGoldberg/boston-ts-website",
 	"license": "MIT",
 	"author": {
+		"name": "Josh Goldberg",
 		"email": "npm@joshuakgoldberg.com"
 	},
 	"type": "module",
-	"main": "./lib/index.js",
-	"files": [
-		"lib/",
-		"package.json",
-		"LICENSE.md",
-		"README.md"
-	],
 	"scripts": {
-		"build": "tsup",
+		"dev": "remix dev -c \"node server.js\"",
 		"format": "prettier .",
 		"lint": "eslint . .*js --max-warnings 0",
 		"lint:knip": "knip",
@@ -28,6 +22,16 @@
 	},
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"
+	},
+	"dependencies": {
+		"@remix-run/dev": "^2.6.0",
+		"@remix-run/express": "^2.6.0",
+		"@remix-run/node": "^2.6.0",
+		"@remix-run/react": "^2.6.0",
+		"express": "^4.18.2",
+		"isbot": "4",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
 		"@types/eslint": "^8.56.2",
@@ -55,7 +59,6 @@
 		"prettier-plugin-curly": "^0.1.4",
 		"prettier-plugin-packagejson": "^2.4.11",
 		"sentences-per-line": "^0.2.1",
-		"tsup": "^8.0.2",
 		"typescript": "^5.3.3",
 		"yaml-eslint-parser": "^1.2.2"
 	},
