@@ -23,7 +23,6 @@ export default function App() {
 				<Links />
 			</head>
 			<body>
-				<HeroHeading>Boston TypeScript</HeroHeading>
 				<Outlet />
 
 				<Scripts />
