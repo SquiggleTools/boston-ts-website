@@ -1,6 +1,9 @@
 <h1 align="center">The BostonTS Website</h1>
 
-<p align="center">The website for BostonTS. Powered by React, Remix, TypeScript, and Vanilla Extract. ✨</p>
+<p align="center">
+	The website for BostonTS.
+	Powered by React, Remix, TypeScript, and Vanilla Extract. ✨
+</p>
 
 <p align="center">
 	<!-- prettier-ignore-start -->
