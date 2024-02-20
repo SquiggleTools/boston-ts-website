@@ -31,6 +31,7 @@
 		"@remix-run/node": "^2.6.0",
 		"@remix-run/react": "^2.6.0",
 		"@vanilla-extract/css": "^1.14.1",
+		"clsx": "^2.1.0",
 		"express": "^4.18.2",
 		"isbot": "4",
 		"react": "^18.2.0",
