@@ -18,6 +18,7 @@ export function Layout({ back, children, title }: LayoutProps) {
 			</main>
 			<footer>
 				<Link to="/about">About</Link>
+				<Link to="/code-of-conduct">Code of Conduct</Link>
 			</footer>
 		</div>
 	);

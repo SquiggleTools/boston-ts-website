@@ -4,5 +4,4 @@ import { vars } from "./styles.css";
 
 export const root = style({
 	fontSize: vars.sizes.hero,
-	textAlign: "right",
 });
