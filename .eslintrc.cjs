@@ -11,7 +11,7 @@ module.exports = {
 		"plugin:perfectionist/recommended-natural",
 		"plugin:regexp/recommended",
 	],
-	ignorePatterns: ["!.*", "coverage", "lib", "node_modules", "pnpm-lock.yaml"],
+	ignorePatterns: ["!.*", "lib", "node_modules", "pnpm-lock.yaml"],
 	overrides: [
 		{
 			extends: ["plugin:markdown/recommended"],
