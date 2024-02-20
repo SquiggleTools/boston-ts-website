@@ -10,7 +10,6 @@ module.exports = {
 		"plugin:n/recommended",
 		"plugin:perfectionist/recommended-natural",
 		"plugin:regexp/recommended",
-		"plugin:vitest/recommended",
 	],
 	ignorePatterns: ["!.*", "coverage", "lib", "node_modules", "pnpm-lock.yaml"],
 	overrides: [
@@ -92,14 +91,6 @@ module.exports = {
 			plugins: ["package-json"],
 		},
 		{
-			files: "**/*.test.ts",
-			rules: {
-				// These on-by-default rules aren't useful in test files.
-				"@typescript-eslint/no-unsafe-assignment": "off",
-				"@typescript-eslint/no-unsafe-call": "off",
-			},
-		},
-		{
 			extends: ["plugin:yml/standard", "plugin:yml/prettier"],
 			files: ["**/*.{yml,yaml}"],
 			parser: "yaml-eslint-parser",
@@ -129,7 +120,6 @@ module.exports = {
 		"jsdoc",
 		"perfectionist",
 		"regexp",
-		"vitest",
 	],
 	reportUnusedDisableDirectives: true,
 	root: true,
