@@ -25,9 +25,13 @@ export function Layout({ back, children, title }: LayoutProps) {
 			</header>
 			<main className={styles.main}>{children}</main>
 			<footer className={styles.footer}>
-				<Anchor to="/about">About</Anchor>
+				<Anchor reloadDocument to="/about">
+					About
+				</Anchor>
 				<span className={styles.dot} />
-				<Anchor to="/code-of-conduct">Code of Conduct</Anchor>
+				<Anchor reloadDocument to="/code-of-conduct">
+					Code of Conduct
+				</Anchor>
 			</footer>
 		</div>
 	);
