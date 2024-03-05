@@ -1,9 +1,9 @@
-import { Link } from "@remix-run/react";
 import React from "react";
 
 import { HeroHeading } from "~/HeroHeading";
 
 import { Anchor } from "./Anchor";
+import { Arrow } from "./Arrow";
 import * as styles from "./Layout.css";
 
 export interface LayoutProps extends React.PropsWithChildren {
@@ -16,7 +16,12 @@ export function Layout({ back, children, title }: LayoutProps) {
 		<div className={styles.layout}>
 			<header className={styles.header}>
 				<HeroHeading>{title}</HeroHeading>
-				{back && <Link to="/">Boston TS ⬅️</Link>}
+				{back && (
+					<Anchor to="/">
+						Boston TS
+						<Arrow />
+					</Anchor>
+				)}
 			</header>
 			<main className={styles.main}>{children}</main>
 			<footer className={styles.footer}>
