@@ -10,7 +10,7 @@ export const [themeClass, vars] = createTheme({
 		foreground: "#ffffff",
 	},
 	sizes: {
-		hero: `clamp(7rem, 13vw, 15rem)`,
+		hero: `clamp(7rem, 12vw, 15rem)`,
 		large: `clamp(2rem, 4vw, 3rem)`,
 		medium: `clamp(1.5rem, 4vw, 3rem)`,
 	},

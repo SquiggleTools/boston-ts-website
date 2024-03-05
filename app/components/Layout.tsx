@@ -8,14 +8,23 @@ import * as styles from "./Layout.css";
 
 export interface LayoutProps extends React.PropsWithChildren {
 	back?: boolean;
-	title: string;
+	title: string | string[];
 }
 
 export function Layout({ back, children, title }: LayoutProps) {
+	const titles = Array.isArray(title) ? title : [title];
+
 	return (
 		<div className={styles.layout}>
 			<header className={styles.header}>
-				<HeroHeading>{title}</HeroHeading>
+				<HeroHeading>
+					{titles.map((text, i) => (
+						<>
+							<span className={styles.together}>{text}</span>
+							{i === titles.length - 1 ? "" : " "}
+						</>
+					))}
+				</HeroHeading>
 				{back && (
 					<Anchor to="/">
 						Boston TS

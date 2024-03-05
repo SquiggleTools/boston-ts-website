@@ -6,7 +6,7 @@ export const layout = style({
 	"@media": {
 		[breakpoints.medium]: {
 			display: "grid",
-			gridTemplateColumns: "auto 60%",
+			gridTemplateColumns: "auto 50%",
 			gridTemplateRows: "auto auto",
 		},
 	},
@@ -23,6 +23,10 @@ export const header = style({
 			textAlign: "right",
 		},
 	},
+});
+
+export const together = style({
+	display: "inline-block",
 });
 
 export const footer = style({
@@ -56,5 +60,7 @@ export const dot = style({
 });
 
 export const main = style({
+	fontSize: vars.sizes.medium,
 	gridArea: "1 / 1 / 3 / 2",
+	wordBreak: "break-word",
 });
