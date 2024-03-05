@@ -20,7 +20,7 @@ export const meta: MetaFunction = () => {
 export default function About() {
 	return (
 		<Layout back title="About">
-			Hello, world!
+			{description}
 		</Layout>
 	);
 }

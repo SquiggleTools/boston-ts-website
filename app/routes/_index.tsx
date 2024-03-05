@@ -18,5 +18,5 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-	return <Layout title={["Boston", "TS Club"]}>Hello, world!</Layout>;
+	return <Layout title={["Boston", "TS Club"]}>{description}</Layout>;
 }
