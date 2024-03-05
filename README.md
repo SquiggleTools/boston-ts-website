@@ -19,13 +19,8 @@
 ## Usage
 
 ```shell
-npm i boston-ts-website
-```
-
-```ts
-import { greet } from "boston-ts-website";
-
-greet("Hello, world! 💖");
+pnpm i
+pnpm dev
 ```
 
 ## Contributors
