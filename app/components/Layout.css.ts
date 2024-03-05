@@ -1,6 +1,6 @@
 import { style } from "@vanilla-extract/css";
 
-import { breakpoints } from "~/styles.css";
+import { breakpoints, vars } from "~/styles.css";
 
 export const layout = style({
 	"@media": {
@@ -17,16 +17,42 @@ export const layout = style({
 	width: "100%",
 });
 
-export const footer = style({
-	gridArea: "2 / 2 / 3 / 3",
-});
-
 export const header = style({
 	"@media": {
 		[breakpoints.medium]: {
 			textAlign: "right",
 		},
 	},
+});
+
+export const footer = style({
+	"@media": {
+		[breakpoints.medium]: {
+			alignItems: "flex-end",
+			flexDirection: "row",
+			justifyContent: "flex-end",
+			textAlign: "right",
+		},
+	},
+	display: "flex",
+	flexDirection: "column",
+	gap: "0.25rem",
+	height: "100%",
+	justifyContent: "flex-end",
+});
+
+export const dot = style({
+	"@media": {
+		[breakpoints.medium]: {
+			background: vars.color.foreground,
+			borderRadius: "100%",
+			display: "inline-block",
+			height: "0.85rem",
+			margin: "0 1.5rem 1rem",
+			width: "0.85rem",
+		},
+	},
+	display: "block",
 });
 
 export const main = style({

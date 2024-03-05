@@ -3,6 +3,7 @@ import React from "react";
 
 import { HeroHeading } from "~/HeroHeading";
 
+import { Anchor } from "./Anchor";
 import * as styles from "./Layout.css";
 
 export interface LayoutProps extends React.PropsWithChildren {
@@ -18,9 +19,10 @@ export function Layout({ back, children, title }: LayoutProps) {
 				{back && <Link to="/">Boston TS ⬅️</Link>}
 			</header>
 			<main className={styles.main}>{children}</main>
-			<footer>
-				<Link to="/about">About</Link>
-				<Link to="/code-of-conduct">Code of Conduct</Link>
+			<footer className={styles.footer}>
+				<Anchor to="/about">About</Anchor>
+				<span className={styles.dot} />
+				<Anchor to="/code-of-conduct">Code of Conduct</Anchor>
 			</footer>
 		</div>
 	);

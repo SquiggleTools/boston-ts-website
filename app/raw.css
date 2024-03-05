@@ -24,3 +24,9 @@ h6 {
 	margin: 0;
 	padding: 0;
 }
+
+:link,
+:visited {
+	color: inherit;
+	text-decoration: none;
+}

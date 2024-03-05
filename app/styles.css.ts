@@ -11,8 +11,11 @@ export const [themeClass, vars] = createTheme({
 	},
 	sizes: {
 		hero: `clamp(7rem, 13vw, 15rem)`,
+		large: `clamp(2rem, 4vw, 3rem)`,
+		medium: `clamp(1.5rem, 4vw, 3rem)`,
 	},
 	weights: {
 		hero: "900",
+		large: "700",
 	},
 });
