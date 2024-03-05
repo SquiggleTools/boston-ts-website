@@ -1,9 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;900&display=swap");
 
+* {
+	box-sizing: border-box;
+}
+
 body,
 html {
 	font-family: "League Spartan", monospace;
 	font-smooth: smooth;
 	-webkit-font-smoothing: antialiased;
-	overflow: overlay;
+	height: 100%;
+	width: 100%;
+}
+
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
 }
