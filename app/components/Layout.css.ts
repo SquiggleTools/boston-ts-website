@@ -20,7 +20,10 @@ export const layout = style({
 export const header = style({
 	"@media": {
 		[breakpoints.medium]: {
+			position: "fixed",
+			right: "2rem",
 			textAlign: "right",
+			top: "2rem",
 		},
 	},
 });
@@ -33,8 +36,11 @@ export const footer = style({
 	"@media": {
 		[breakpoints.medium]: {
 			alignItems: "flex-end",
+			bottom: "2rem",
 			flexDirection: "row",
 			justifyContent: "flex-end",
+			position: "fixed",
+			right: "2rem",
 			textAlign: "right",
 		},
 	},
