@@ -5,4 +5,5 @@ import { vars } from "./styles.css";
 export const html = style({
 	background: vars.color.background,
 	color: vars.color.foreground,
+	fontWeight: vars.weights.normal,
 });

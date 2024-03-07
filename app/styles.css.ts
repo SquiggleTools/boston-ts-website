@@ -23,5 +23,6 @@ export const [themeClass, vars] = createTheme({
 	weights: {
 		hero: "900",
 		large: "700",
+		normal: "600",
 	},
 });
