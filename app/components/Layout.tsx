@@ -19,10 +19,10 @@ export function Layout({ back, children, title }: LayoutProps) {
 			<header className={styles.header}>
 				<HeroHeading>
 					{titles.map((text, i) => (
-						<>
+						<React.Fragment key={text}>
 							<span className={styles.together}>{text}</span>
 							{i === titles.length - 1 ? "" : " "}
-						</>
+						</React.Fragment>
 					))}
 				</HeroHeading>
 				{back && (

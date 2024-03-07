@@ -1,7 +1,7 @@
 import { MetaFunction } from "@remix-run/node";
 
 import { Layout } from "~/components/Layout";
-import { description, title } from "~/constants";
+import { description, title } from "~/config";
 
 export const meta: MetaFunction = () => {
 	return [

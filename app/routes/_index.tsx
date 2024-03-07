@@ -1,7 +1,28 @@
-import { MetaFunction } from "@remix-run/node";
+import { MetaFunction, json } from "@remix-run/node";
+import { useLoaderData } from "@remix-run/react";
 
+import { Heading } from "~/Heading";
+import { EventDetails } from "~/components/EventDetails";
 import { Layout } from "~/components/Layout";
-import { description, title } from "~/constants";
+import { description, title } from "~/config";
+import { eventSchema } from "~/schemas";
+
+export const loader = async () => {
+	const events = (await import("../data/events.json")).map((event) => ({
+		...event,
+		date: new Date(event.date),
+	}));
+
+	// This assumes we'll always have a rebuild of the site after an event change.
+	// Surely this assumption tied to datetime logic will never come back to haunt us.
+	const now = new Date().getTime();
+
+	return json(
+		events
+			.filter((event) => event.date.getTime() > now)
+			.sort((a, b) => a.date.getTime() - b.date.getTime()),
+	);
+};
 
 export const meta: MetaFunction = () => {
 	return [
@@ -18,5 +39,17 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-	return <Layout title={["Boston", "TS Club"]}>{description}</Layout>;
+	const events = useLoaderData<typeof loader>();
+
+	return (
+		<Layout title={["Boston", "TS Club"]}>
+			{description}
+
+			<Heading>Upcoming Events</Heading>
+
+			{events.map((event) => (
+				<EventDetails event={eventSchema.parse(event)} key={event.date} />
+			))}
+		</Layout>
+	);
 }
