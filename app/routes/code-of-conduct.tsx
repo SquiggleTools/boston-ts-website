@@ -22,11 +22,11 @@ export default function About() {
 		<Layout back title="CoC">
 			<h2>Anti-Harassment and Anti-Bullying Code of Conduct</h2>
 			<p>
-				The Boston JavaScript Club is dedicated to providing a respectful,
+				The Boston TypeScript Club is dedicated to providing a respectful,
 				harassment-free community for everyone. We do not tolerate harassment or
 				bullying of any community member in any form. This does not only extend
-				to members of the Boston JavaScript Club, but to anyone who chooses to
-				become involved in the larger Boston JavaScript Club community of users,
+				to members of the Boston TypeScript Club, but to anyone who chooses to
+				become involved in the larger Boston TypeScript Club community of users,
 				developers and integrators through events or interactions.
 			</p>
 			<p>
@@ -42,17 +42,17 @@ export default function About() {
 			<p>
 				If a participant engages in harassing behavior, representatives of the
 				community may take reasonable action they deem appropriate, including
-				warning the offender, expulsion from any Boston JavaScript Club event,
+				warning the offender, expulsion from any Boston TypeScript Club event,
 				or expulsion from mailing lists, Slack groups, discussion boards, and
 				other electronic communications channels to resolve the issue. This may
-				include expulsion from Boston JavaScript Club membership.
+				include expulsion from Boston TypeScript Club membership.
 			</p>
 			<p>
 				If you are being harassed, notice that someone else is being harassed,
 				or have any other concerns, please act to intercede or ask for help from
-				any member of the Boston JavaScript Club, Slack group admins, website
+				any member of the Boston TypeScript Club, Slack group admins, website
 				admins, or organizers/representatives of any physical events put on
-				under the auspices of the Boston JavaScript Club.
+				under the auspices of the Boston TypeScript Club.
 			</p>
 			—
 			<p>
