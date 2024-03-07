@@ -15,6 +15,7 @@ export const [themeClass, vars] = createTheme({
 	lineHeights: {
 		heading: `0.9em`,
 		hero: `1.5em`,
+		light: `1.1em`,
 		medium: `1em`,
 	},
 	sizes: {
@@ -26,6 +27,7 @@ export const [themeClass, vars] = createTheme({
 	weights: {
 		hero: "900",
 		large: "700",
+		light: "500",
 		normal: "600",
 	},
 });
