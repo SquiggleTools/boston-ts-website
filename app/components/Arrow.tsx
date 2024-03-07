@@ -4,13 +4,18 @@ import * as styles from "./Arrow.css";
 
 interface ArrowProps {
 	className?: string;
+	label: string;
+
+	// todo: get from styleVariants?
+	// is there a type utility for this?
+	variant: "back" | "out";
 }
 
-export function Arrow({ className }: ArrowProps) {
+export function Arrow({ className, label, variant }: ArrowProps) {
 	return (
 		<svg
-			aria-label="Back"
-			className={clsx(styles.arrow, className)}
+			aria-label={label}
+			className={clsx(styles.arrow[variant], className)}
 			fill="none"
 			viewBox="0 0 20 16"
 			xmlns="http://www.w3.org/2000/svg"

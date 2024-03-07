@@ -28,7 +28,7 @@ export function Layout({ back, children, title }: LayoutProps) {
 				{back && (
 					<Anchor to="/">
 						Boston TS
-						<Arrow />
+						<Arrow label="Back arrow" variant="back" />
 					</Anchor>
 				)}
 			</header>

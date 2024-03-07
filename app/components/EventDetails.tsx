@@ -1,6 +1,7 @@
 import { region } from "~/config";
 import { EventData } from "~/schemas";
 
+import { Arrow } from "./Arrow";
 import * as styles from "./EventDetails.css";
 
 export interface EventDetailsProps {
@@ -25,6 +26,7 @@ export function EventDetails({ event }: EventDetailsProps) {
 			</ul>
 			<a href={event.link} rel="noreferrer" target="_blank">
 				Register Now
+				<Arrow label="Out arrow" variant="out" />
 			</a>
 		</article>
 	);
