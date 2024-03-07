@@ -1,6 +1,6 @@
 import { style } from "@vanilla-extract/css";
 
-import { breakpoints, vars } from "~/styles.css";
+import { breakpoints, foreground, vars } from "~/styles.css";
 
 export const layout = style({
 	"@media": {
@@ -56,7 +56,7 @@ export const footer = style({
 export const dot = style({
 	"@media": {
 		[breakpoints.medium]: {
-			background: vars.color.foreground,
+			background: foreground,
 			borderRadius: "100%",
 			display: "inline-block",
 			height: "0.85rem",

@@ -1,13 +1,16 @@
-import { createTheme } from "@vanilla-extract/css";
+import { createTheme, createVar } from "@vanilla-extract/css";
 
 export const breakpoints = {
 	medium: "screen and (min-width: 1024px)",
 };
 
+export const background = createVar();
+export const foreground = createVar();
+
 export const [themeClass, vars] = createTheme({
 	color: {
-		background: "#3178c6",
-		foreground: "#ffffff",
+		blue: "#3178c6",
+		white: "#ffffff",
 	},
 	lineHeights: {
 		heading: `0.9em`,
