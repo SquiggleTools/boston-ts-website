@@ -3,9 +3,14 @@ import { installGlobals } from "@remix-run/node";
 import { vercelPreset } from "@vercel/remix/vite";
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
+import { vanillaExtractPlugin } from "@vanilla-extract/vite-plugin";
 
 installGlobals();
 
 export default defineConfig({
-	plugins: [remix({ presets: [vercelPreset()] }), tsconfigPaths()],
+	plugins: [
+		remix({ presets: [vercelPreset()] }),
+		tsconfigPaths(),
+		vanillaExtractPlugin(),
+	],
 });

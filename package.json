@@ -44,6 +44,7 @@
 		"@types/react": "^18.2.57",
 		"@typescript-eslint/eslint-plugin": "^7.0.2",
 		"@typescript-eslint/parser": "^7.0.2",
+		"@vanilla-extract/vite-plugin": "^4.0.4",
 		"cspell": "^8.4.1",
 		"eslint": "^8.56.0",
 		"eslint-plugin-deprecation": "^2.0.0",

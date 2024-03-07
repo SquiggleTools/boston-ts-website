@@ -7,7 +7,7 @@ import { description, title } from "~/config";
 import { eventSchema } from "~/schemas";
 
 export const loader = async () => {
-	const events = (await import("../data/events.json")).map((event) => ({
+	const events = (await import("../data/events.json")).default.map((event) => ({
 		...event,
 		date: new Date(event.date),
 	}));
