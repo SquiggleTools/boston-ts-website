@@ -1,6 +1,6 @@
 import { style } from "@vanilla-extract/css";
 
-import { vars } from "./styles.css";
+import { vars } from "~/styles.css";
 
 export const heading = style({
 	fontSize: vars.sizes.heading,

@@ -1,7 +1,8 @@
+import { EventData } from "~/schemas";
+
+import { EventDetails } from "./EventDetails";
 import * as styles from "./EventsList.css";
 import { Heading } from "./Heading";
-import { EventDetails } from "./components/EventDetails";
-import { EventData } from "./schemas";
 
 export interface EventsListProps {
 	events: EventData[];
