@@ -68,5 +68,6 @@ export const dot = style({
 export const main = style({
 	fontSize: vars.sizes.medium,
 	gridArea: "1 / 1 / 3 / 2",
+	lineHeight: vars.lineHeights.medium,
 	wordBreak: "break-word",
 });

@@ -1,5 +1,6 @@
 import { MetaFunction } from "@remix-run/node";
 
+import { Heading } from "~/Heading";
 import { Layout } from "~/components/Layout";
 import { description, title } from "~/constants";
 
@@ -20,7 +21,7 @@ export const meta: MetaFunction = () => {
 export default function About() {
 	return (
 		<Layout back title="CoC">
-			<h2>Anti-Harassment and Anti-Bullying Code of Conduct</h2>
+			<Heading>Anti-Harassment and Anti-Bullying Code of Conduct</Heading>
 			<p>
 				The Boston TypeScript Club is dedicated to providing a respectful,
 				harassment-free community for everyone. We do not tolerate harassment or
