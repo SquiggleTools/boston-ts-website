@@ -4,7 +4,6 @@ import { cssBundleHref } from "@remix-run/css-bundle";
 import { Links, LiveReload, Meta, Outlet, Scripts } from "@remix-run/react";
 import clsx from "clsx";
 
-import { HeroHeading } from "./HeroHeading.js";
 import raw from "./raw.css";
 import * as styles from "./root.css";
 import { themeClass } from "./styles.css.js";
