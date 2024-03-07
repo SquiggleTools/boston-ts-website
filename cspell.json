@@ -9,5 +9,5 @@
 		"node_modules",
 		"pnpm-lock.yaml"
 	],
-	"words": ["clsx", "isbot", "knip", "packagejson"]
+	"words": ["clsx", "currentcolor", "isbot", "knip", "packagejson"]
 }

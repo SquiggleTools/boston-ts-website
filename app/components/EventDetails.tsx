@@ -16,7 +16,7 @@ export function EventDetails({ event }: EventDetailsProps) {
 	});
 
 	return (
-		<article>
+		<article className={styles.article}>
 			<h3 className={styles.heading}>{formatter.format(event.date)}</h3>
 			<div>{event.location}</div>
 			<ul className={styles.list}>
