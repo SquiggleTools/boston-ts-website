@@ -24,6 +24,8 @@ export const header = style({
 			right: "2rem",
 			textAlign: "right",
 			top: "2rem",
+			width: "50%",
+			zIndex: "1",
 		},
 	},
 });
