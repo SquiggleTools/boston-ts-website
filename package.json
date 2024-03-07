@@ -25,11 +25,11 @@
 		"*": "prettier --ignore-unknown --write"
 	},
 	"dependencies": {
-		"@remix-run/css-bundle": "^2.6.0",
-		"@remix-run/dev": "^2.6.0",
-		"@remix-run/express": "^2.6.0",
-		"@remix-run/node": "^2.6.0",
-		"@remix-run/react": "^2.6.0",
+		"@remix-run/css-bundle": "^2.8.1",
+		"@remix-run/dev": "^2.8.1",
+		"@remix-run/express": "^2.8.1",
+		"@remix-run/node": "^2.8.1",
+		"@remix-run/react": "^2.8.1",
 		"@vanilla-extract/css": "^1.14.1",
 		"@vercel/remix": "^2.8.1",
 		"clsx": "^2.1.0",
@@ -37,6 +37,7 @@
 		"isbot": "4",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
+		"vite": "^5.1.5",
 		"zod": "^3.22.4"
 	},
 	"devDependencies": {
