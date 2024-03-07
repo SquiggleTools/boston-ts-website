@@ -14,6 +14,7 @@ module.exports = {
 	ignorePatterns: [
 		"!.*",
 		".cache",
+		".vercel",
 		"build",
 		"public",
 		"node_modules",

@@ -1,7 +1,7 @@
 import { vitePlugin as remix } from "@remix-run/dev";
 import { installGlobals } from "@remix-run/node";
-import { defineConfig } from "vite";
 import { vercelPreset } from "@vercel/remix/vite";
+import { defineConfig } from "vite";
 
 installGlobals();
 
