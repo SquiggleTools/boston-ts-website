@@ -1,9 +1,9 @@
 import { vitePlugin as remix } from "@remix-run/dev";
 import { installGlobals } from "@remix-run/node";
+import { vanillaExtractPlugin } from "@vanilla-extract/vite-plugin";
 import { vercelPreset } from "@vercel/remix/vite";
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
-import { vanillaExtractPlugin } from "@vanilla-extract/vite-plugin";
 
 installGlobals();
 
