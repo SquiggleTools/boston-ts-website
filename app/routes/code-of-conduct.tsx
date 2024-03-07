@@ -1,6 +1,6 @@
 import { MetaFunction } from "@remix-run/node";
 
-import { Heading } from "~/Heading";
+import { Heading } from "~/components/Heading";
 import { Layout } from "~/components/Layout";
 import { description, title } from "~/config";
 

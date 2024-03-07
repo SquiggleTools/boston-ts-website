@@ -1,6 +1,6 @@
 import React from "react";
 
-import { HeroHeading } from "~/HeroHeading";
+import { HeroHeading } from "~/components/HeroHeading";
 
 import { Anchor } from "./Anchor";
 import { Arrow } from "./Arrow";

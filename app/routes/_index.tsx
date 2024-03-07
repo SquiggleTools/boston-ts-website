@@ -1,7 +1,7 @@
 import { MetaFunction, json } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
 
-import { EventsList } from "~/EventsList";
+import { EventsList } from "~/components/EventsList";
 import { Layout } from "~/components/Layout";
 import { description, title } from "~/config";
 import { eventSchema } from "~/schemas";
