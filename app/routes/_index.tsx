@@ -1,5 +1,5 @@
-import { MetaFunction, json } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
+import { MetaFunction, json } from "@vercel/remix";
 
 import { EventsList } from "~/components/EventsList";
 import { Layout } from "~/components/Layout";
@@ -7,7 +7,7 @@ import { description, title } from "~/config";
 import { eventSchema } from "~/schemas";
 
 export const loader = async () => {
-	const events = (await import("../data/events.json")).map((event) => ({
+	const events = (await import("../data/events.json")).default.map((event) => ({
 		...event,
 		date: new Date(event.date),
 	}));

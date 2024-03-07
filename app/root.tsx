@@ -4,12 +4,11 @@ import { cssBundleHref } from "@remix-run/css-bundle";
 import { Links, LiveReload, Meta, Outlet, Scripts } from "@remix-run/react";
 import clsx from "clsx";
 
-import raw from "./raw.css";
+import "./raw.css";
 import * as styles from "./root.css";
 import { themeClass } from "./styles.css.js";
 
 export const links: LinksFunction = () => [
-	{ href: raw, rel: "stylesheet" },
 	...(cssBundleHref ? [{ href: cssBundleHref, rel: "stylesheet" }] : []),
 ];
 
