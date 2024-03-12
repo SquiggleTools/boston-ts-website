@@ -1,5 +1,5 @@
 import { useLoaderData } from "@remix-run/react";
-import { MetaFunction, json } from "@vercel/remix";
+import { LinksFunction, MetaFunction, json } from "@vercel/remix";
 
 import { EventsList } from "~/components/EventsList";
 import { Layout } from "~/components/Layout";
@@ -21,6 +21,10 @@ export const loader = async () => {
 			.filter((event) => event.date.getTime() > now)
 			.sort((a, b) => a.date.getTime() - b.date.getTime()),
 	);
+};
+
+export const links: LinksFunction = () => {
+	return [{ href: "/favicon.ico", rel: "icon" }];
 };
 
 export const meta: MetaFunction = () => {
