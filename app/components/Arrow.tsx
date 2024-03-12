@@ -5,10 +5,7 @@ import * as styles from "./Arrow.css";
 interface ArrowProps {
 	className?: string;
 	label: string;
-
-	// todo: get from styleVariants?
-	// is there a type utility for this?
-	variant: "back" | "out";
+	variant: keyof typeof styles.arrow;
 }
 
 export function Arrow({ className, label, variant }: ArrowProps) {

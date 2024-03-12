@@ -11,7 +11,9 @@ export interface EventsListProps {
 export function EventsList({ events }: EventsListProps) {
 	return (
 		<>
-			<Heading className={styles.heading}>Upcoming Events</Heading>
+			<Heading className={styles.heading} level={2}>
+				Upcoming Events
+			</Heading>
 
 			{events.map((event) => (
 				<EventDetails event={event} key={event.link} />

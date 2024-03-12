@@ -1,9 +1,33 @@
-import { style } from "@vanilla-extract/css";
+import { style, styleVariants } from "@vanilla-extract/css";
 
 import { vars } from "~/styles.css";
 
-export const heading = style({
-	fontSize: vars.sizes.heading,
+const base = style({
 	fontWeight: vars.weights.large,
-	lineHeight: vars.lineHeights.heading,
+});
+
+export const heading = styleVariants({
+	2: [
+		base,
+		{
+			fontSize: vars.sizes.heading,
+			lineHeight: vars.lineHeights.heading,
+		},
+	],
+	3: [
+		base,
+		{
+			fontSize: vars.sizes.subHeading,
+			lineHeight: vars.lineHeights.medium,
+			marginTop: "4rem",
+		},
+	],
+	4: [
+		base,
+		{
+			fontSize: vars.sizes.large,
+			lineHeight: vars.lineHeights.medium,
+			marginTop: "3rem",
+		},
+	],
 });
