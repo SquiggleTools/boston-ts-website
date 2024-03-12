@@ -26,7 +26,7 @@ export function Layout({ back, children, title }: LayoutProps) {
 					))}
 				</HeroHeading>
 				{back && (
-					<Anchor to="/">
+					<Anchor to="/" variant="heavy">
 						Boston TS
 						<Arrow label="Back arrow" variant="back" />
 					</Anchor>
@@ -34,11 +34,11 @@ export function Layout({ back, children, title }: LayoutProps) {
 			</header>
 			<main className={styles.main}>{children}</main>
 			<footer className={styles.footer}>
-				<Anchor reloadDocument to="/about">
+				<Anchor reloadDocument to="/about" variant="heavy">
 					About
 				</Anchor>
 				<span className={styles.dot} />
-				<Anchor reloadDocument to="/code-of-conduct">
+				<Anchor reloadDocument to="/code-of-conduct" variant="heavy">
 					Code of Conduct
 				</Anchor>
 			</footer>

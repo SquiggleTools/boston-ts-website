@@ -22,7 +22,9 @@ export const meta: MetaFunction = () => {
 export default function About() {
 	return (
 		<Layout back title="CoC">
-			<Heading>Anti-Harassment and Anti-Bullying Code of Conduct</Heading>
+			<Heading level={2}>
+				Anti-Harassment and Anti-Bullying Code of Conduct
+			</Heading>
 			<BodyText>
 				The Boston TypeScript Club is dedicated to providing a respectful,
 				harassment-free community for everyone. We do not tolerate harassment or
@@ -56,7 +58,7 @@ export default function About() {
 				admins, or organizers/representatives of any physical events put on
 				under the auspices of the Boston TypeScript Club.
 			</BodyText>
-			—
+			<BodyText>—</BodyText>
 			<BodyText>
 				This Code of Conduct adapted from{" "}
 				<a

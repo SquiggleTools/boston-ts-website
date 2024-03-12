@@ -1,13 +1,28 @@
-import { style } from "@vanilla-extract/css";
+import { style, styleVariants } from "@vanilla-extract/css";
 
 import { vars } from "~/styles.css";
 
-export const anchor = style({
+const base = style({
 	fontSize: vars.sizes.medium,
-	fontWeight: vars.weights.large,
-	selectors: {
-		"&:active, &.active": {
-			textDecoration: "underline",
+});
+
+export const anchor = styleVariants({
+	heavy: [
+		base,
+		{
+			fontWeight: vars.weights.large,
+			selectors: {
+				"&:active, &.active": {
+					textDecoration: "underline",
+				},
+			},
 		},
-	},
+	],
+	underline: [
+		base,
+		{
+			textDecoration: "underline",
+			textUnderlineOffset: "0.15em",
+		},
+	],
 });

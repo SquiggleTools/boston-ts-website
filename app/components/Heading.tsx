@@ -5,8 +5,9 @@ import * as styles from "./Heading.css";
 
 export interface HeadingProps extends React.PropsWithChildren {
 	className?: string;
+	level: keyof typeof styles.heading;
 }
 
-export function Heading({ children, className }: HeadingProps) {
-	return <h2 className={clsx(styles.heading, className)}>{children}</h2>;
+export function Heading({ children, className, level }: HeadingProps) {
+	return <h2 className={clsx(styles.heading[level], className)}>{children}</h2>;
 }
