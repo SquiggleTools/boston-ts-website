@@ -7,4 +7,5 @@ export const bodyText = style({
 	fontWeight: vars.weights.light,
 	lineHeight: vars.lineHeights.light,
 	margin: "2rem 0 1rem",
+	textWrap: "balance",
 });
