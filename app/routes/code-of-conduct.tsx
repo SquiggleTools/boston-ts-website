@@ -3,21 +3,12 @@ import { MetaFunction } from "@remix-run/node";
 import { BodyText } from "~/components/BodyText";
 import { Heading } from "~/components/Heading";
 import { Layout } from "~/components/Layout";
-import { site } from "~/config";
+import { createMeta } from "~/config";
 
-export const meta: MetaFunction = () => {
-	return [
-		{ title: `Code of Conduct | ${site.title}` },
-		{
-			content: site.description,
-			name: "description",
-		},
-		{
-			content: site.title,
-			property: "og:title",
-		},
-	];
-};
+const tagline = `The Boston TypeScript Club is dedicated to providing a respectful, harassment-free community for everyone. We do not tolerate harassment or bullying of any community member in any form. This does not only extend to members of the Boston TypeScript Club, but to anyone who chooses to become involved in the larger Boston TypeScript Club community of users, developers and integrators through events or interactions.`;
+
+export const meta: MetaFunction = () =>
+	createMeta({ page: "Code of Conduct", tagline });
 
 export default function About() {
 	return (
@@ -25,14 +16,7 @@ export default function About() {
 			<Heading level={2}>
 				Anti-Harassment and Anti-Bullying Code of Conduct
 			</Heading>
-			<BodyText>
-				The Boston TypeScript Club is dedicated to providing a respectful,
-				harassment-free community for everyone. We do not tolerate harassment or
-				bullying of any community member in any form. This does not only extend
-				to members of the Boston TypeScript Club, but to anyone who chooses to
-				become involved in the larger Boston TypeScript Club community of users,
-				developers and integrators through events or interactions.
-			</BodyText>
+			<BodyText>{tagline}</BodyText>
 			<BodyText>
 				Harassment includes offensive verbal/electronic comments related to
 				personal characteristics or choices, sexual images or comments in public
