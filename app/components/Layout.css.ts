@@ -6,6 +6,7 @@ export const layout = style({
 	"@media": {
 		[breakpoints.medium]: {
 			display: "grid",
+			gap: "0 2rem",
 			gridTemplateColumns: "auto 50%",
 			gridTemplateRows: "auto auto",
 		},
@@ -13,7 +14,7 @@ export const layout = style({
 	display: "flex",
 	flexDirection: "column",
 	height: "100%",
-	padding: "2rem",
+	padding: "2rem 2rem 0",
 	width: "100%",
 });
 
@@ -50,7 +51,6 @@ export const footer = style({
 	display: "flex",
 	flexDirection: "column",
 	gap: "0.25rem",
-	height: "100%",
 	justifyContent: "flex-end",
 	paddingBottom: "2rem",
 });
@@ -75,9 +75,10 @@ export const main = style({
 			margin: "0",
 		},
 	},
+	flexGrow: "9001",
 	fontSize: vars.sizes.medium,
 	gridArea: "1 / 1 / 3 / 2",
 	lineHeight: vars.lineHeights.medium,
-	margin: "2rem 0",
+	margin: "clamp(1rem, 3vh, 3rem) 0",
 	wordBreak: "break-word",
 });
