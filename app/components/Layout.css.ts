@@ -41,6 +41,7 @@ export const footer = style({
 			bottom: "2rem",
 			flexDirection: "row",
 			justifyContent: "flex-end",
+			paddingBottom: "0",
 			position: "fixed",
 			right: "2rem",
 			textAlign: "right",
@@ -51,6 +52,7 @@ export const footer = style({
 	gap: "0.25rem",
 	height: "100%",
 	justifyContent: "flex-end",
+	paddingBottom: "2rem",
 });
 
 export const dot = style({
@@ -68,8 +70,14 @@ export const dot = style({
 });
 
 export const main = style({
+	"@media": {
+		[breakpoints.medium]: {
+			margin: "0",
+		},
+	},
 	fontSize: vars.sizes.medium,
 	gridArea: "1 / 1 / 3 / 2",
 	lineHeight: vars.lineHeights.medium,
+	margin: "2rem 0",
 	wordBreak: "break-word",
 });
