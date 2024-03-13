@@ -12,7 +12,7 @@ export function EventsList({ events }: EventsListProps) {
 	return (
 		<>
 			<Heading className={styles.heading} level={2}>
-				Upcoming Events
+				Upcoming Event{events.length === 1 ? "" : "s"}
 			</Heading>
 
 			{events.map((event) => (
