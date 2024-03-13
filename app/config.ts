@@ -22,6 +22,7 @@ export const createMeta = ({ page, tagline }: MetaSettings = {}) => {
 		{ content: site.baseURL, property: "twitter:url" },
 		{ content: description, property: "twitter:description" },
 		{ content: longTitle, property: "twitter:title" },
+		{ title },
 	];
 };
 
