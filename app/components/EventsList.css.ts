@@ -9,5 +9,5 @@ export const heading = style({
 		},
 	},
 
-	margin: "3rem 0",
+	margin: "clamp(0.5rem, 2.5vh, 3rem) 0",
 });
