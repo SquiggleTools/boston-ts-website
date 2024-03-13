@@ -16,7 +16,6 @@ export default function App() {
 	return (
 		<html className={clsx(styles.html, themeClass)}>
 			<head>
-				<link href="data:image/x-icon;base64,AA" rel="icon" />
 				<Meta />
 				<Links />
 			</head>

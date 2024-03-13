@@ -4,29 +4,17 @@ import { Anchor } from "~/components/Anchor";
 import { BodyText } from "~/components/BodyText";
 import { Heading } from "~/components/Heading";
 import { Layout } from "~/components/Layout";
-import { description, title } from "~/config";
+import { createMeta, site } from "~/config";
 
-const aboutDescription = `We meet once every month or two to chat about our favorite typed superset of JavaScript.`;
+const tagline = `We meet once every month or two to chat about our favorite typed superset of JavaScript.`;
 
-export const meta: MetaFunction = () => {
-	return [
-		{ title: `About | ${title}` },
-		{
-			content: [description, aboutDescription].join(" "),
-			name: "description",
-		},
-		{
-			content: title,
-			property: "og:title",
-		},
-	];
-};
+export const meta: MetaFunction = () => createMeta({ page: "About", tagline });
 
 export default function About() {
 	return (
 		<Layout back title="About">
-			<Heading level={2}>{description}</Heading>
-			<BodyText>{aboutDescription}</BodyText>
+			<Heading level={2}>{site.description}</Heading>
+			<BodyText>{tagline}</BodyText>
 			<BodyText>
 				We welcome all developers of all experience and skill levels to connect,
 				learn new things, and show off their work.

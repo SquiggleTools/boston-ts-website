@@ -3,7 +3,7 @@ import { LinksFunction, MetaFunction, json } from "@vercel/remix";
 
 import { EventsList } from "~/components/EventsList";
 import { Layout } from "~/components/Layout";
-import { description, title } from "~/config";
+import { createMeta } from "~/config";
 import { eventSchema } from "~/schemas";
 
 export const loader = async () => {
@@ -27,19 +27,7 @@ export const links: LinksFunction = () => {
 	return [{ href: "/favicon.ico", rel: "icon" }];
 };
 
-export const meta: MetaFunction = () => {
-	return [
-		{ title },
-		{
-			content: description,
-			name: "description",
-		},
-		{
-			content: title,
-			property: "og:title",
-		},
-	];
-};
+export const meta: MetaFunction = () => createMeta();
 
 export default function Index() {
 	const events = useLoaderData<typeof loader>();
