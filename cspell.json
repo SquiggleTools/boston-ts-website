@@ -9,5 +9,13 @@
 		"node_modules",
 		"pnpm-lock.yaml"
 	],
-	"words": ["Blass", "clsx", "currentcolor", "isbot", "knip", "packagejson"]
+	"words": [
+		"Blass",
+		"bostonts",
+		"clsx",
+		"currentcolor",
+		"isbot",
+		"knip",
+		"packagejson"
+	]
 }

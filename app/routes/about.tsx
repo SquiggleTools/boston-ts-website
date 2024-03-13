@@ -4,19 +4,19 @@ import { Anchor } from "~/components/Anchor";
 import { BodyText } from "~/components/BodyText";
 import { Heading } from "~/components/Heading";
 import { Layout } from "~/components/Layout";
-import { description, title } from "~/config";
+import { site } from "~/config";
 
 const aboutDescription = `We meet once every month or two to chat about our favorite typed superset of JavaScript.`;
 
 export const meta: MetaFunction = () => {
 	return [
-		{ title: `About | ${title}` },
+		{ title: `About | ${site.title}` },
 		{
-			content: [description, aboutDescription].join(" "),
+			content: [site.description, aboutDescription].join(" "),
 			name: "description",
 		},
 		{
-			content: title,
+			content: site.title,
 			property: "og:title",
 		},
 	];
@@ -25,7 +25,7 @@ export const meta: MetaFunction = () => {
 export default function About() {
 	return (
 		<Layout back title="About">
-			<Heading level={2}>{description}</Heading>
+			<Heading level={2}>{site.description}</Heading>
 			<BodyText>{aboutDescription}</BodyText>
 			<BodyText>
 				We welcome all developers of all experience and skill levels to connect,

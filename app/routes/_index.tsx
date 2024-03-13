@@ -3,7 +3,7 @@ import { LinksFunction, MetaFunction, json } from "@vercel/remix";
 
 import { EventsList } from "~/components/EventsList";
 import { Layout } from "~/components/Layout";
-import { description, title } from "~/config";
+import { site } from "~/config";
 import { eventSchema } from "~/schemas";
 
 export const loader = async () => {
@@ -29,13 +29,13 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => {
 	return [
-		{ title },
+		{ title: site.title },
 		{
-			content: description,
+			content: site.description,
 			name: "description",
 		},
 		{
-			content: title,
+			content: site.title,
 			property: "og:title",
 		},
 	];

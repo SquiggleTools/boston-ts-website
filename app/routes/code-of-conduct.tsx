@@ -3,17 +3,17 @@ import { MetaFunction } from "@remix-run/node";
 import { BodyText } from "~/components/BodyText";
 import { Heading } from "~/components/Heading";
 import { Layout } from "~/components/Layout";
-import { description, title } from "~/config";
+import { site } from "~/config";
 
 export const meta: MetaFunction = () => {
 	return [
-		{ title: `Code of Conduct | ${title}` },
+		{ title: `Code of Conduct | ${site.title}` },
 		{
-			content: description,
+			content: site.description,
 			name: "description",
 		},
 		{
-			content: title,
+			content: site.title,
 			property: "og:title",
 		},
 	];
