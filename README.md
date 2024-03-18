@@ -18,6 +18,8 @@
 
 ## Usage
 
+After installing [Node.js](https://nodejs.org) and [pnpm](https://pnpm.io):
+
 ```shell
 pnpm i
 pnpm dev
