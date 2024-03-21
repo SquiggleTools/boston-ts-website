@@ -50,6 +50,9 @@ export default function About() {
 				<li>
 					<strong>David Blass</strong>
 				</li>
+				<li>
+					<strong>Nnenna Ndukwe</strong>
+				</li>
 			</ul>
 			<Heading level={3}>The Website</Heading>
 			<BodyText>
