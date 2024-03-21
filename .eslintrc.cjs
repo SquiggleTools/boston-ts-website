@@ -32,7 +32,7 @@ module.exports = {
 				"plugin:@typescript-eslint/strict",
 				"plugin:@typescript-eslint/stylistic",
 			],
-			files: ["**/*.ts"],
+			files: ["**/*.ts", "**/*.tsx"],
 			parser: "@typescript-eslint/parser",
 			rules: {
 				// These off-by-default rules work well for this repo and we like them on.
@@ -57,7 +57,7 @@ module.exports = {
 				"plugin:@typescript-eslint/strict-type-checked",
 				"plugin:@typescript-eslint/stylistic-type-checked",
 			],
-			files: ["**/*.ts"],
+			files: ["**/*.ts", "**/*.tsx"],
 			parser: "@typescript-eslint/parser",
 			parserOptions: {
 				project: "./tsconfig.eslint.json",
