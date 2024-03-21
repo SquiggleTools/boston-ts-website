@@ -31,7 +31,7 @@ dependencies:
     version: 2.1.0
   isbot:
     specifier: '5'
-    version: 5.1.1
+    version: 5.1.2
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -4561,8 +4561,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /isbot@5.1.1:
-    resolution: {integrity: sha512-l4ArJhXWgEahbPEY5nVNh3Ojr0s4Eg2evSAmEQ6QkiFIwdsHg2wThzCMs/kcqgNc1D4HxwEg3+FEYP+bgAiplA==}
+  /isbot@5.1.2:
+    resolution: {integrity: sha512-Yk2X9QhmhzyxKx4JYfeanqxODxDc2CoU38/uymjkvW/CYww6GPH8e65sOuLz0SIkFjW6pCg/iM6vLdohzA4WOQ==}
     engines: {node: '>=18'}
     dev: false
 
