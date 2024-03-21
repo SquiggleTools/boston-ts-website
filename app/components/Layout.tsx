@@ -2,7 +2,7 @@ import React from "react";
 
 import { HeroHeading } from "~/components/HeroHeading";
 
-import { Anchor } from "./Anchor";
+import { InternalAnchor } from "./Anchor";
 import { Arrow } from "./Arrow";
 import * as styles from "./Layout.css";
 
@@ -26,21 +26,21 @@ export function Layout({ back, children, title }: LayoutProps) {
 					))}
 				</HeroHeading>
 				{back && (
-					<Anchor to="/" variant="heavy">
+					<InternalAnchor to="/" variant="heavy">
 						Boston TS
 						<Arrow label="Back arrow" variant="back" />
-					</Anchor>
+					</InternalAnchor>
 				)}
 			</header>
 			<main className={styles.main}>{children}</main>
 			<footer className={styles.footer}>
-				<Anchor reloadDocument to="/about" variant="heavy">
+				<InternalAnchor reloadDocument to="/about" variant="heavy">
 					About
-				</Anchor>
+				</InternalAnchor>
 				<span className={styles.dot} />
-				<Anchor reloadDocument to="/code-of-conduct" variant="heavy">
+				<InternalAnchor reloadDocument to="/code-of-conduct" variant="heavy">
 					Code of Conduct
-				</Anchor>
+				</InternalAnchor>
 			</footer>
 		</div>
 	);

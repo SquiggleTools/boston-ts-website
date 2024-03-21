@@ -24,7 +24,10 @@ export const loader = async () => {
 };
 
 export const links: LinksFunction = () => {
-	return [{ href: "/favicon.ico", rel: "icon" }];
+	return [
+		{ href: "/favicon.ico", rel: "icon" },
+		{ href: "https://mastodon.social/@BostonTS", rel: "me" },
+	];
 };
 
 export const meta: MetaFunction = () => createMeta();
