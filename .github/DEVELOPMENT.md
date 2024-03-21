@@ -19,6 +19,16 @@ Run the [**Remix**](https://remix.run/docs/en/main/start/quickstart) quickstart 
 pnpm dev
 ```
 
+### Production Builds
+
+Pending something coming to Remix, we `pnpm dev` and then manually `wget` scrape:
+
+```shell
+mkdir temp
+cd temp
+wget -k  -E -r -l 10 -p -N -F -nH http://localhost:5173 http://localhost:5173/ad
+```
+
 ## Formatting
 
 [Prettier](https://prettier.io) is used to format code.
