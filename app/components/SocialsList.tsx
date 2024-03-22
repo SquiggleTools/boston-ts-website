@@ -1,6 +1,4 @@
-import { ExternalAnchor } from "./Anchor";
 import { AnchorWithArrow } from "./AnchorWithArrow";
-import { Arrow } from "./Arrow";
 import * as styles from "./SocialsList.css";
 import { BlueskyLogo } from "./logos/BlueskyLogo";
 import { LinkedInLogo } from "./logos/LinkedInLogo";
