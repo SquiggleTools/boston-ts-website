@@ -10,5 +10,9 @@ export const heading = style({
 });
 
 export const list = style({
-	margin: "1rem 0",
+	display: "flex",
+	flexDirection: "column",
+	gap: "0.75rem",
+	lineHeight: "clamp(1.5rem, 5vw, 2.75rem)",
+	margin: "clamp(1rem, 5vw, 2rem) 0",
 });

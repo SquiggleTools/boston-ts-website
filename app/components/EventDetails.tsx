@@ -1,7 +1,7 @@
 import { region } from "~/config";
 import { EventData } from "~/schemas";
 
-import { Arrow } from "./Arrow";
+import { AnchorWithArrow } from "./AnchorWithArrow";
 import * as styles from "./EventDetails.css";
 
 export interface EventDetailsProps {
@@ -24,10 +24,7 @@ export function EventDetails({ event }: EventDetailsProps) {
 					<li key={topic}>{topic}</li>
 				))}
 			</ul>
-			<a href={event.link} rel="noreferrer" target="_blank">
-				Register Now
-				<Arrow label="Out arrow" variant="out" />
-			</a>
+			<AnchorWithArrow href={event.link}>Register Now</AnchorWithArrow>
 		</article>
 	);
 }

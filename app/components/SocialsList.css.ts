@@ -9,13 +9,7 @@ export const socialsList = style({
 });
 
 export const logo = style({
-	marginRight: "1rem",
-	verticalAlign: "text-top",
-});
-
-export const arrow = style({
-	height: "1.75rem",
-	marginLeft: "0.5rem",
-	verticalAlign: "text-top",
-	width: "1.75rem",
+	height: "1rem",
+	marginRight: "1.5rem",
+	width: "1rem",
 });
