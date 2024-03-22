@@ -1,4 +1,5 @@
 import { ExternalAnchor } from "./Anchor";
+import { AnchorWithArrow } from "./AnchorWithArrow";
 import { Arrow } from "./Arrow";
 import * as styles from "./SocialsList.css";
 import { BlueskyLogo } from "./logos/BlueskyLogo";
@@ -32,19 +33,12 @@ const socials = [
 export function SocialsList() {
 	return (
 		<ul className={styles.socialsList}>
-			{socials.map(({ logo: Logo, text, ...props }) => (
-				<li key={props.href}>
-					<ExternalAnchor
-						{...props}
-						className={styles.anchor}
-						rel="me"
-						target="_blank"
-						variant="heavy"
-					>
+			{socials.map(({ href, logo: Logo, text }) => (
+				<li key={href}>
+					<AnchorWithArrow href={href} rel="me">
 						<Logo className={styles.logo} />
 						{text}
-						<Arrow className={styles.arrow} label="" variant="out" />
-					</ExternalAnchor>
+					</AnchorWithArrow>
 				</li>
 			))}
 		</ul>

@@ -1,7 +1,7 @@
 import { style, styleVariants } from "@vanilla-extract/css";
 
 const base = style({
-	margin: 0,
+	// margin: 0,
 });
 
 export const arrow = styleVariants({
@@ -18,7 +18,6 @@ export const arrow = styleVariants({
 		base,
 		{
 			height: "1em",
-			marginBottom: "-0.1em",
 			marginLeft: "0.1em",
 			transform: `rotate(-45deg)`,
 			width: "1em",
