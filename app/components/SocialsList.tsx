@@ -1,4 +1,4 @@
-import { InternalAnchor } from "./Anchor";
+import { ExternalAnchor } from "./Anchor";
 import { Arrow } from "./Arrow";
 import * as styles from "./SocialsList.css";
 import { BlueskyLogo } from "./logos/BlueskyLogo";
@@ -8,24 +8,24 @@ import { TwitterLogo } from "./logos/TwitterLogo";
 
 const socials = [
 	{
+		href: "https://bsky.app/profile/bostonts.club",
 		logo: BlueskyLogo,
 		text: "Bluesky",
-		to: "https://bsky.app/profile/bostonts.club",
 	},
 	{
+		href: "https://www.linkedin.com/groups/13008308",
 		logo: LinkedInLogo,
 		text: "LinkedIn",
-		to: "https://www.linkedin.com/groups/13008308",
 	},
 	{
+		href: "https://mastodon.social/@BostonTS",
 		logo: MastodonLogo,
 		text: "Mastodon",
-		to: "https://mastodon.social/@BostonTS",
 	},
 	{
+		href: "https://twitter.com/BosTypeScript",
 		logo: TwitterLogo,
 		text: "Twitter",
-		to: "https://twitter.com/BosTypeScript",
 	},
 ];
 
@@ -33,12 +33,18 @@ export function SocialsList() {
 	return (
 		<ul className={styles.socialsList}>
 			{socials.map(({ logo: Logo, text, ...props }) => (
-				<li key={props.to}>
-					<InternalAnchor {...props} rel="me" target="_blank" variant="heavy">
+				<li key={props.href}>
+					<ExternalAnchor
+						{...props}
+						className={styles.anchor}
+						rel="me"
+						target="_blank"
+						variant="heavy"
+					>
 						<Logo className={styles.logo} />
 						{text}
 						<Arrow className={styles.arrow} label="" variant="out" />
-					</InternalAnchor>
+					</ExternalAnchor>
 				</li>
 			))}
 		</ul>

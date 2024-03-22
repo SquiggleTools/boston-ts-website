@@ -8,14 +8,19 @@ export const socialsList = style({
 	paddingLeft: 0,
 });
 
+export const anchor = style({
+	display: "flex",
+	justifyContent: "flex-start",
+});
+
 export const logo = style({
-	marginRight: "1rem",
-	verticalAlign: "text-top",
+	height: "1rem",
+	marginRight: "1.5rem",
+	width: "1rem",
 });
 
 export const arrow = style({
-	height: "1.75rem",
-	marginLeft: "0.5rem",
-	verticalAlign: "text-top",
-	width: "1.75rem",
+	height: "1em",
+	marginLeft: "0.5em",
+	width: "1em",
 });
