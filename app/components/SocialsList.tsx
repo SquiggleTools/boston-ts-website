@@ -1,6 +1,7 @@
 import { AnchorWithArrow } from "./AnchorWithArrow";
 import * as styles from "./SocialsList.css";
 import { BlueskyLogo } from "./logos/BlueskyLogo";
+import { DiscordLogo } from "./logos/DiscordLogo";
 import { LinkedInLogo } from "./logos/LinkedInLogo";
 import { MastodonLogo } from "./logos/MastodonLogo";
 import { TwitterLogo } from "./logos/TwitterLogo";
@@ -10,6 +11,11 @@ const socials = [
 		href: "https://bsky.app/profile/bostonts.club",
 		logo: BlueskyLogo,
 		text: "Bluesky",
+	},
+	{
+		href: "https://discord.gg/kKTDgeaWmZ",
+		logo: DiscordLogo,
+		text: "Discord",
 	},
 	{
 		href: "https://www.linkedin.com/groups/13008308",
