@@ -5,6 +5,7 @@ import { HeroHeading } from "~/components/HeroHeading";
 import { InternalAnchor } from "./Anchor";
 import { Arrow } from "./Arrow";
 import * as styles from "./Layout.css";
+import { SocialsList } from "./SocialsList";
 
 export interface LayoutProps extends React.PropsWithChildren {
 	back?: boolean;
@@ -34,13 +35,16 @@ export function Layout({ back, children, title }: LayoutProps) {
 			</header>
 			<main className={styles.main}>{children}</main>
 			<footer className={styles.footer}>
-				<InternalAnchor reloadDocument to="/about" variant="heavy">
-					About
-				</InternalAnchor>
-				<span className={styles.dot} />
-				<InternalAnchor reloadDocument to="/code-of-conduct" variant="heavy">
-					Code of Conduct
-				</InternalAnchor>
+				<div className={styles.footerLinks}>
+					<InternalAnchor reloadDocument to="/about" variant="heavy">
+						About
+					</InternalAnchor>
+					<span className={styles.dot} />
+					<InternalAnchor reloadDocument to="/code-of-conduct" variant="heavy">
+						Code of Conduct
+					</InternalAnchor>
+				</div>
+				<SocialsList />
 			</footer>
 		</div>
 	);

@@ -1,4 +1,4 @@
-import { AnchorWithArrow } from "./AnchorWithArrow";
+import { ExternalAnchor } from "./Anchor";
 import * as styles from "./SocialsList.css";
 import { BlueskyLogo } from "./logos/BlueskyLogo";
 import { DiscordLogo } from "./logos/DiscordLogo";
@@ -39,10 +39,9 @@ export function SocialsList() {
 		<ul className={styles.socialsList}>
 			{socials.map(({ href, logo: Logo, text }) => (
 				<li key={href}>
-					<AnchorWithArrow href={href} rel="me">
-						<Logo className={styles.logo} />
-						{text}
-					</AnchorWithArrow>
+					<ExternalAnchor href={href} rel="me" variant="heavy">
+						<Logo aria-label={text} className={styles.logo} />
+					</ExternalAnchor>
 				</li>
 			))}
 		</ul>

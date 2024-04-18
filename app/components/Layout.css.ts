@@ -38,13 +38,21 @@ export const together = style({
 export const footer = style({
 	"@media": {
 		[breakpoints.medium]: {
-			alignItems: "flex-end",
-			bottom: "2rem",
-			flexDirection: "row",
-			justifyContent: "flex-end",
+			bottom: "1rem",
 			paddingBottom: "0",
 			position: "fixed",
 			right: "2rem",
+		},
+	},
+	paddingBottom: "1rem",
+});
+
+export const footerLinks = style({
+	"@media": {
+		[breakpoints.medium]: {
+			alignItems: "flex-end",
+			flexDirection: "row",
+			justifyContent: "flex-end",
 			textAlign: "right",
 		},
 	},
@@ -52,7 +60,7 @@ export const footer = style({
 	flexDirection: "column",
 	gap: "0.25rem",
 	justifyContent: "flex-end",
-	paddingBottom: "2rem",
+	paddingBottom: "1rem",
 });
 
 export const dot = style({
