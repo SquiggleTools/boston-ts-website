@@ -26,8 +26,15 @@ Pending something coming to Remix, we `pnpm dev` and then manually `wget` scrape
 ```shell
 mkdir temp
 cd temp
-wget -k  -E -r -l 10 -p -N -F -nH http://localhost:5173 http://localhost:5173/ad
+wget -k -E -r -l 10 -p -N -F -nH http://localhost:5173 http://localhost:5173/ad
+rm -rf @id app node_modules
 ```
+
+...then touch up the files for static hosting:
+
+1. Remove all `<script>` and `modulepreload` tags from the generated output
+2. Move files like `about.html` to `index/about.html`
+3. Swap `href` attributes from `.html` paths like `"about.html"` to absolute paths like `"/about"`
 
 ## Formatting
 
