@@ -22,7 +22,7 @@ export default function About() {
 				personal characteristics or choices, sexual images or comments in public
 				or online spaces, deliberate intimidation, bullying, stalking,
 				following, harassing photography or recording, sustained disruption of
-				talks, Slack messages, electronic meetings, physical meetings or other
+				talks, Discord messages, electronic meetings, physical meetings or other
 				events, inappropriate physical contact, or unwelcome sexual attention.
 				Participants asked to stop any harassing or bullying behavior are
 				expected to comply immediately.
@@ -31,14 +31,14 @@ export default function About() {
 				If a participant engages in harassing behavior, representatives of the
 				community may take reasonable action they deem appropriate, including
 				warning the offender, expulsion from any Boston TypeScript Club event,
-				or expulsion from mailing lists, Slack groups, discussion boards, and
+				or expulsion from mailing lists, Discord groups, discussion boards, and
 				other electronic communications channels to resolve the issue. This may
 				include expulsion from Boston TypeScript Club membership.
 			</BodyText>
 			<BodyText>
 				If you are being harassed, notice that someone else is being harassed,
 				or have any other concerns, please act to intercede or ask for help from
-				any member of the Boston TypeScript Club, Slack group admins, website
+				any member of the Boston TypeScript Club, Discord group admins, website
 				admins, or organizers/representatives of any physical events put on
 				under the auspices of the Boston TypeScript Club.
 			</BodyText>

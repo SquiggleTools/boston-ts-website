@@ -4,7 +4,6 @@ import { ExternalAnchor } from "~/components/Anchor";
 import { BodyText } from "~/components/BodyText";
 import { Heading } from "~/components/Heading";
 import { Layout } from "~/components/Layout";
-import { SocialsList } from "~/components/SocialsList";
 import { createMeta, site } from "~/config";
 
 const tagline = `We meet once every month or two to chat about our favorite typed superset of JavaScript.`;
@@ -21,8 +20,6 @@ export default function About() {
 				learn new things, and show off their work.
 			</BodyText>
 			<BodyText>We're happy for you to join us.</BodyText>
-			<Heading level={3}>The Socials</Heading>
-			<SocialsList />
 			<Heading level={3}>The Team</Heading>
 			<BodyText>
 				Reach us over{" "}
@@ -33,13 +30,13 @@ export default function About() {
 				>
 					email
 				</ExternalAnchor>{" "}
-				or the{" "}
+				or{" "}
 				<ExternalAnchor
-					href="https://join.slack.com/t/bostonjavascript/shared_invite/zt-2emlu1b7m-6Ys9wprf~xY65GGOAioJrA"
+					href="https://discord.gg/kKTDgeaWmZ"
 					target="_blank"
 					variant="underline"
 				>
-					Boston JavaScript Slack
+					Discord
 				</ExternalAnchor>
 				.
 			</BodyText>
