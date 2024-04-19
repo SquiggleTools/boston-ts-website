@@ -15,9 +15,9 @@ export function EventsList({ events }: EventsListProps) {
 				Upcoming Event{events.length === 1 ? "" : "s"}
 			</Heading>
 
-			{events.map((event) => (
-				<EventDetails event={event} key={event.link} />
-			))}
+			{events.length
+				? events.map((event) => <EventDetails event={event} key={event.link} />)
+				: "Still in the works. Let us know if you'd like to help organize!"}
 		</>
 	);
 }
