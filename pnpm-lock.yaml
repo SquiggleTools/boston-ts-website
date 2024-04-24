@@ -43,7 +43,7 @@ importers:
         version: 18.2.0(react@18.2.0)
       zod:
         specifier: ^3.22.4
-        version: 3.22.5
+        version: 3.23.0
     devDependencies:
       '@types/eslint':
         specifier: ^8.56.2
@@ -4413,8 +4413,8 @@ packages:
     peerDependencies:
       zod: ^3.18.0
 
-  zod@3.22.5:
-    resolution: {integrity: sha512-HqnGsCdVZ2xc0qWPLdO25WnseXThh0kEYKIdV5F/hTHO75hNZFp8thxSeHhiPrHZKrFTo1SOgkAj9po5bexZlw==}
+  zod@3.23.0:
+    resolution: {integrity: sha512-OFLT+LTocvabn6q76BTwVB0hExEBS0IduTr3cqZyMqEDbOnYmcU+y0tUAYbND4uwclpBGi4I4UUBGzylWpjLGA==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -7305,8 +7305,8 @@ snapshots:
       strip-json-comments: 5.0.1
       summary: 2.1.0
       typescript: 5.4.5
-      zod: 3.22.5
-      zod-validation-error: 3.1.0(zod@3.22.5)
+      zod: 3.23.0
+      zod-validation-error: 3.1.0(zod@3.23.0)
     transitivePeerDependencies:
       - bluebird
       - domexception
@@ -9144,10 +9144,10 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod-validation-error@3.1.0(zod@3.22.5):
+  zod-validation-error@3.1.0(zod@3.23.0):
     dependencies:
-      zod: 3.22.5
+      zod: 3.23.0
 
-  zod@3.22.5: {}
+  zod@3.23.0: {}
 
   zwitch@2.0.4: {}
