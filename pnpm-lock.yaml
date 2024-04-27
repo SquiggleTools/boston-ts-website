@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@remix-run/css-bundle':
         specifier: ^2.8.1
-        version: 2.9.0
+        version: 2.9.1
       '@remix-run/dev':
         specifier: ^2.8.1
         version: 2.9.0(@remix-run/react@2.8.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.4.5))(@types/node@20.12.7)(typescript@5.4.5)(vite@5.2.10(@types/node@20.12.7))
@@ -1020,8 +1020,8 @@ packages:
     resolution: {integrity: sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@remix-run/css-bundle@2.9.0':
-    resolution: {integrity: sha512-ITdp6JfDPESQIabfYTsQZyRdTfxe3bpJ0fY6yHY+W6M4ulay8GbTfBANWdEwxIBaHTTW2Rx1RRSrsjeCSkFKqg==}
+  '@remix-run/css-bundle@2.9.1':
+    resolution: {integrity: sha512-M1Nm3oOBKg6Kozb17CFR7hYfrJ+jp6lgBnwNmmRk5QZnz1fyiRU8Po8EZ3muLlBeEsu7KqiYlrH8UeWtSAXKEg==}
     engines: {node: '>=18.0.0'}
 
   '@remix-run/dev@2.9.0':
@@ -4987,7 +4987,7 @@ snapshots:
 
   '@pkgr/core@0.1.1': {}
 
-  '@remix-run/css-bundle@2.9.0': {}
+  '@remix-run/css-bundle@2.9.1': {}
 
   '@remix-run/dev@2.9.0(@remix-run/react@2.8.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.4.5))(@types/node@20.12.7)(typescript@5.4.5)(vite@5.2.10(@types/node@20.12.7))':
     dependencies:
