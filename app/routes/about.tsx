@@ -45,10 +45,10 @@ export default function About() {
 					<strong>Josh Goldberg</strong>
 				</li>
 				<li>
-					<strong>David Blass</strong>
+					<strong>Mariah Goldberg</strong>
 				</li>
 				<li>
-					<strong>Nnenna Ndukwe</strong>
+					<strong>David Blass</strong>
 				</li>
 			</ul>
 			<Heading level={3}>The Website</Heading>
