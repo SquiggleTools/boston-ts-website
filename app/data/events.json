@@ -1,5 +1,12 @@
 [
 	{
+		"date": "2024-05-23T18:00:00.000-04:00",
+		"link": "https://www.eventbrite.com/e/boston-typescript-meetup-ii-electric-boogaloo-tickets-894487755957",
+		"location": "Microsoft NERD Center",
+		"time": "5:30pm - 8:30pm",
+		"topics": ["Every Single Thing You Can Do With Destructuring", "TBA", "TBA"]
+	},
+	{
 		"date": "2024-04-18T18:00:00.000-04:00",
 		"link": "https://www.eventbrite.com/e/boston-typescript-meetup-the-first-one-ever-tickets-858516595247",
 		"location": "Microsoft NERD Center",
