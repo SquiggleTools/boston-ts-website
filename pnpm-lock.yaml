@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@remix-run/css-bundle':
         specifier: ^2.8.1
-        version: 2.8.1
+        version: 2.9.2
       '@remix-run/dev':
         specifier: ^2.8.1
         version: 2.8.1(@types/node@20.12.7)(typescript@5.4.5)(vite@5.2.10(@types/node@20.12.7))
@@ -1095,8 +1095,8 @@ packages:
     resolution: {integrity: sha512-SBXXyWDkPEoaLTjLRyQzRHoBYH+P0NLcIjX1yPUxuJiMTvGOMzjpLWTuxYNVe/P0V0VQMrjpJFaJPjlViNLhzg==}
     engines: {node: '>=16.14'}
 
-  '@remix-run/css-bundle@2.8.1':
-    resolution: {integrity: sha512-rn72xyUJ+rR5I0IxjlDWPPBddV1kpLvOT2FY9SMIUTFqyxq3ZK2W7FCtFzBt2JZQGZ9oDYidXYMWkW6tXY//rg==}
+  '@remix-run/css-bundle@2.9.2':
+    resolution: {integrity: sha512-q+rfqcM+1Tf+kTpwaGlyBhwAGZyaQtE8sD0cJQBbhP6GZzMrnKUp2KY+w2Xuh04HnKSO3kTp67SvVUCdN+xllg==}
     engines: {node: '>=18.0.0'}
 
   '@remix-run/dev@2.8.1':
@@ -5343,7 +5343,7 @@ snapshots:
       - '@pnpm/logger'
       - domexception
 
-  '@remix-run/css-bundle@2.8.1': {}
+  '@remix-run/css-bundle@2.9.2': {}
 
   '@remix-run/dev@2.8.1(@types/node@20.12.7)(typescript@5.4.5)(vite@5.2.10(@types/node@20.12.7))':
     dependencies:
