@@ -1,13 +1,19 @@
 [
 	{
+		"date": "2024-06-27T18:00:00.000-04:00",
+		"link": "https://www.eventbrite.com/e/boston-ts-club-iii-this-time-its-personal-tickets-925200448447",
+		"location": "Microsoft NERD Center",
+		"time": "5:30pm - 8:30pm",
+		"topics": ["What's New in TypeScript 5.5", "TBA"]
+	},
+	{
 		"date": "2024-05-23T18:00:00.000-04:00",
 		"link": "https://www.eventbrite.com/e/boston-typescript-meetup-ii-electric-boogaloo-tickets-894487755957",
 		"location": "Microsoft NERD Center",
 		"time": "5:30pm - 8:30pm",
 		"topics": [
 			"Every Single Thing You Can Do With Destructuring",
-			"Conference And Meetup Talk Proposals Helpful Tips",
-			"TBA"
+			"Conference And Meetup Talk Proposals Helpful Tips"
 		]
 	},
 	{
