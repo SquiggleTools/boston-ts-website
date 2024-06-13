@@ -11,7 +11,7 @@ export function AdGrid() {
 				<h1 className={styles.h1}>
 					Boston <span className={styles.together}>TS Club</span>
 				</h1>
-				<p className={styles.p}>May 2024</p>
+				<p className={styles.p}>June 2024</p>
 			</div>
 		</main>
 	);
