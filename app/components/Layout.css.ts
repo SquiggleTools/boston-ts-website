@@ -52,7 +52,7 @@ export const footerLinks = style({
 		[breakpoints.medium]: {
 			alignItems: "flex-end",
 			flexDirection: "row",
-			justifyContent: "flex-end",
+			justifyContent: "space-between",
 			textAlign: "right",
 		},
 	},

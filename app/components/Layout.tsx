@@ -44,6 +44,15 @@ export function Layout({ back, children, title }: LayoutProps) {
 						Code of Conduct
 					</InternalAnchor>
 				</div>
+				<div className={styles.footerLinks}>
+					<InternalAnchor reloadDocument to="/events" variant="heavy">
+						Previous Events
+					</InternalAnchor>
+					<span className={styles.dot} />
+					<InternalAnchor reloadDocument to="/speak" variant="heavy">
+						Speak
+					</InternalAnchor>
+				</div>
 				<SocialsList />
 			</footer>
 		</div>
