@@ -15,5 +15,5 @@ export const heading = style({
 export const events = style({
 	display: "flex",
 	flexDirection: "column",
-	gap: "2rem",
+	gap: "3rem",
 });
