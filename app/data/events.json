@@ -4,7 +4,10 @@
 		"link": "https://www.eventbrite.com/e/boston-ts-club-iii-this-time-its-personal-tickets-925200448447",
 		"location": "Microsoft NERD Center",
 		"time": "5:30pm - 8:30pm",
-		"topics": ["What's New in TypeScript 5.5", "TBA"]
+		"topics": [
+			"What's New in TypeScript 5.5",
+			"Panel Discussion: Learning TypeScript"
+		]
 	},
 	{
 		"date": "2024-05-23T18:00:00.000-04:00",
