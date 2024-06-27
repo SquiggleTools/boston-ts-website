@@ -5,19 +5,25 @@ import * as styles from "./EventsList.css";
 import { Heading } from "./Heading";
 
 export interface EventsListProps {
+	active?: boolean;
+	descriptor: "All" | "Upcoming";
 	events: EventData[];
 }
 
-export function EventsList({ events }: EventsListProps) {
+export function EventsList({ active, descriptor, events }: EventsListProps) {
 	return (
 		<>
 			<Heading className={styles.heading} level={2}>
-				Upcoming Event{events.length === 1 ? "" : "s"}
+				{descriptor} Event{events.length === 1 ? "" : "s"}
 			</Heading>
 
-			{events.length
-				? events.map((event) => <EventDetails event={event} key={event.link} />)
-				: "Still in the works. Let us know if you'd like to help organize!"}
+			<div className={styles.events}>
+				{events.length
+					? events.map((event) => (
+							<EventDetails active={active} event={event} key={event.link} />
+						))
+					: "Still in the works. Let us know if you'd like to help organize!"}
+			</div>
 		</>
 	);
 }

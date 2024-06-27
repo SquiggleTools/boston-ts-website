@@ -37,7 +37,11 @@ export default function Index() {
 
 	return (
 		<Layout title={["Boston", "TS Club"]}>
-			<EventsList events={events.map((event) => eventSchema.parse(event))} />
+			<EventsList
+				active
+				descriptor="Upcoming"
+				events={events.map((event) => eventSchema.parse(event))}
+			/>
 		</Layout>
 	);
 }

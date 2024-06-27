@@ -5,10 +5,11 @@ import { AnchorWithArrow } from "./AnchorWithArrow";
 import * as styles from "./EventDetails.css";
 
 export interface EventDetailsProps {
+	active?: boolean;
 	event: EventData;
 }
 
-export function EventDetails({ event }: EventDetailsProps) {
+export function EventDetails({ active, event }: EventDetailsProps) {
 	const formatter = new Intl.DateTimeFormat(region.locale, {
 		day: "numeric",
 		month: "long",
@@ -24,7 +25,9 @@ export function EventDetails({ event }: EventDetailsProps) {
 					<li key={topic}>{topic}</li>
 				))}
 			</ul>
-			<AnchorWithArrow href={event.link}>Register Now</AnchorWithArrow>
+			<AnchorWithArrow href={event.link}>
+				{active ? "Register Now" : "Event Info"}
+			</AnchorWithArrow>
 		</article>
 	);
 }
