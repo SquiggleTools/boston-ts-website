@@ -6,7 +6,7 @@ import { Heading } from "./Heading";
 
 export interface EventsListProps {
 	active?: boolean;
-	descriptor: string;
+	descriptor: "All" | "Upcoming";
 	events: EventData[];
 }
 
