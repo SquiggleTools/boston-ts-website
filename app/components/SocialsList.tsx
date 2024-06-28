@@ -5,6 +5,7 @@ import { DiscordLogo } from "./logos/DiscordLogo";
 import { LinkedInLogo } from "./logos/LinkedInLogo";
 import { MastodonLogo } from "./logos/MastodonLogo";
 import { TwitterLogo } from "./logos/TwitterLogo";
+import { GitHubLogo } from "./logos/GitHubLogo";
 
 const socials = [
 	{
@@ -31,6 +32,11 @@ const socials = [
 		href: "https://twitter.com/BosTypeScript",
 		logo: TwitterLogo,
 		text: "Twitter",
+	},
+	{
+		href: "https://github.com/SquiggleTools/boston-ts-website",
+		logo: GitHubLogo,
+		text: "GitHub",
 	},
 ];
 
