@@ -2,6 +2,7 @@ import { ExternalAnchor } from "./Anchor";
 import * as styles from "./SocialsList.css";
 import { BlueskyLogo } from "./logos/BlueskyLogo";
 import { DiscordLogo } from "./logos/DiscordLogo";
+import { GitHubLogo } from "./logos/GitHubLogo";
 import { LinkedInLogo } from "./logos/LinkedInLogo";
 import { MastodonLogo } from "./logos/MastodonLogo";
 import { TwitterLogo } from "./logos/TwitterLogo";
@@ -16,6 +17,11 @@ const socials = [
 		href: "https://discord.gg/kKTDgeaWmZ",
 		logo: DiscordLogo,
 		text: "Discord",
+	},
+	{
+		href: "https://github.com/SquiggleTools/boston-ts-website",
+		logo: GitHubLogo,
+		text: "GitHub",
 	},
 	{
 		href: "https://www.linkedin.com/groups/13008308",
