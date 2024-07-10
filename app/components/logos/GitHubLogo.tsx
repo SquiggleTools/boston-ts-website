@@ -1,4 +1,3 @@
-//adding new file for the githublogo
 import { SocialLogo, SocialLogoProps } from "./SocialLogo";
 
 export function GitHubLogo(props: SocialLogoProps) {
