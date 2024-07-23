@@ -4,8 +4,8 @@ import { BlueskyLogo } from "./logos/BlueskyLogo";
 import { DiscordLogo } from "./logos/DiscordLogo";
 import { LinkedInLogo } from "./logos/LinkedInLogo";
 import { MastodonLogo } from "./logos/MastodonLogo";
-import { TwitterLogo } from "./logos/TwitterLogo";
 import { GitHubLogo } from "./logos/GitHubLogo";
+import { TwitterLogo } from "./logos/TwitterLogo";
 
 const socials = [
 	{
