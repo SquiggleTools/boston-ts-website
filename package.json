@@ -18,7 +18,7 @@
 		"lint:md": "markdownlint \"**/*.md\" \".github/**/*.md\" --rules sentences-per-line",
 		"lint:packages": "pnpm dedupe --check",
 		"lint:spelling": "cspell \"**\" \".github/**/*\"",
-		"prepare": "husky install",
+		"prepare": "husky",
 		"tsc": "tsc"
 	},
 	"lint-staged": {
