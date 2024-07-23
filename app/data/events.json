@@ -4,7 +4,10 @@
 		"link": "https://www.eventbrite.com/e/boston-ts-club-iv-a-new-type-tickets-945788598157",
 		"location": "Microsoft NERD Center",
 		"time": "5:30pm - 8:30pm",
-		"topics": ["Web Observables! In The Platform!"]
+		"topics": [
+			"Web Observables! In The Platform!",
+			"Coding for the Common Good with BUILD UMass"
+		]
 	},
 	{
 		"date": "2024-06-27T18:00:00.000-04:00",
