@@ -2,7 +2,10 @@
 	"name": "boston-ts-website",
 	"version": "0.0.0",
 	"description": "The website for BostonTS. Powered by React, Remix, TypeScript, and Vanilla Extract. ✨",
-	"repository": "JoshuaKGoldberg/boston-ts-website",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JoshuaKGoldberg/boston-ts-website"
+	},
 	"license": "MIT",
 	"author": {
 		"name": "Josh Goldberg",
