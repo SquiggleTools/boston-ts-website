@@ -23,19 +23,11 @@ export default function About() {
 			<Heading level={3}>The Team</Heading>
 			<BodyText>
 				Reach us over{" "}
-				<ExternalAnchor
-					href="mailto:contact@bostonts.club"
-					target="_blank"
-					variant="underline"
-				>
+				<ExternalAnchor href="mailto:contact@bostonts.club" target="_blank">
 					email
 				</ExternalAnchor>{" "}
 				or{" "}
-				<ExternalAnchor
-					href="https://discord.gg/kKTDgeaWmZ"
-					target="_blank"
-					variant="underline"
-				>
+				<ExternalAnchor href="https://discord.gg/kKTDgeaWmZ" target="_blank">
 					Discord
 				</ExternalAnchor>
 				.

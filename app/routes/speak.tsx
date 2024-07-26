@@ -45,11 +45,8 @@ export default function About() {
 				including talk ideation, slides review, and feedback on a dry run. 💙
 			</BodyText>
 			<Aside>
-				Tip: see{" "}
-				<InternalAnchor to="/events" variant="underline">
-					Events
-				</InternalAnchor>{" "}
-				for references of past talks others have given.
+				Tip: see <InternalAnchor to="/events">Events</InternalAnchor> for
+				references of past talks others have given.
 			</Aside>
 		</Layout>
 	);
