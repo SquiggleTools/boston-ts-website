@@ -85,8 +85,8 @@ importers:
         specifier: ^17.0.0
         version: 17.7.0(eslint@8.57.0)
       eslint-plugin-package-json:
-        specifier: ^0.11.0
-        version: 0.11.0(eslint@8.57.0)(jsonc-eslint-parser@2.4.0)
+        specifier: ^0.15.2
+        version: 0.15.2(eslint@8.57.0)(jsonc-eslint-parser@2.4.0)
       eslint-plugin-perfectionist:
         specifier: ^2.5.0
         version: 2.9.0(eslint@8.57.0)(typescript@5.5.4)
@@ -118,8 +118,8 @@ importers:
         specifier: ^3.3.3
         version: 3.3.3
       prettier-plugin-curly:
-        specifier: ^0.2.0
-        version: 0.2.1(prettier@3.3.3)
+        specifier: ^0.2.2
+        version: 0.2.2(prettier@3.3.3)
       prettier-plugin-packagejson:
         specifier: ^2.5.1
         version: 2.5.1(prettier@3.3.3)
@@ -2129,8 +2129,8 @@ packages:
     peerDependencies:
       eslint: '>=8.23.0'
 
-  eslint-plugin-package-json@0.11.0:
-    resolution: {integrity: sha512-cr9pstyKxg+PwwwJrWn1pje2fXPjU/TIijIY/fPnN7rx1+NK7CmO9qmXAR8sAXbRfBQyHjcrFSYktck9yI8rWQ==}
+  eslint-plugin-package-json@0.15.2:
+    resolution: {integrity: sha512-mls5O8zT3Sjl/lLmhT8xtNkLpj7b3uP6wwK9rgg9rtmAbPjlzkunCySlHQgEcB6ZUV+Qi3QabLaSub2IWr2VmA==}
     engines: {node: '>=18'}
     peerDependencies:
       eslint: '>=8.0.0'
@@ -3290,8 +3290,8 @@ packages:
     resolution: {integrity: sha512-/bjOqmgETBYB5BoEeGVea8dmvHb2m9GLy1E9W43yeyfP6QQCZGFNa+XRceJEuDB6zqr+gKpIAmlLebMpykw/MQ==}
     engines: {node: '>=10'}
 
-  package-json-validator@0.6.3:
-    resolution: {integrity: sha512-juKiFboV4UKUvWQ+OSxstnyukhuluyuEoFmgZw1Rx21XzmwlgDWLcbl3qzjA3789IRORYhVFs7cmAO0YFGwHCg==}
+  package-json-validator@0.6.5:
+    resolution: {integrity: sha512-fEG8kM+EfX0j7TbTWAv6/0NRkid0fUHm2afJx35en3+IlrJ6dRQfKUCpuUl/bGM6MvQ0MxAlpaXkJtYVMp0F4A==}
     hasBin: true
 
   pako@0.2.9:
@@ -3457,8 +3457,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier-plugin-curly@0.2.1:
-    resolution: {integrity: sha512-BadJTlVy/nX+4sgCc5htrgej4yLVRWIMa1PwN96BqlRru4tGkj1fo2OqZE446fJWlddx9xxTMJByDKIZYc7F3Q==}
+  prettier-plugin-curly@0.2.2:
+    resolution: {integrity: sha512-2Rm/NLSeVv7xhQop3+P0Yt6GcbRGrFCb7Dl7y7NH6md4ZgcAcIiKgmAJtB+iWhgw1iwV7aDYSWslAQHpxu9isQ==}
     engines: {node: '>=18'}
     peerDependencies:
       prettier: ^2 || ^3
@@ -6326,12 +6326,15 @@ snapshots:
       minimatch: 9.0.4
       semver: 7.6.2
 
-  eslint-plugin-package-json@0.11.0(eslint@8.57.0)(jsonc-eslint-parser@2.4.0):
+  eslint-plugin-package-json@0.15.2(eslint@8.57.0)(jsonc-eslint-parser@2.4.0):
     dependencies:
+      detect-indent: 6.1.0
+      detect-newline: 3.1.0
       eslint: 8.57.0
       jsonc-eslint-parser: 2.4.0
-      package-json-validator: 0.6.3
+      package-json-validator: 0.6.5
       semver: 7.6.2
+      sort-object-keys: 1.1.3
       sort-package-json: 1.57.0
       validate-npm-package-name: 5.0.1
 
@@ -7745,7 +7748,7 @@ snapshots:
     dependencies:
       aggregate-error: 3.1.0
 
-  package-json-validator@0.6.3:
+  package-json-validator@0.6.5:
     dependencies:
       optimist: 0.6.1
 
@@ -7903,7 +7906,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-curly@0.2.1(prettier@3.3.3):
+  prettier-plugin-curly@0.2.2(prettier@3.3.3):
     dependencies:
       '@babel/generator': 7.24.6
       '@babel/parser': 7.24.6
