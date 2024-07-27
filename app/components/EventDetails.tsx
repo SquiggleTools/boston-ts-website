@@ -10,15 +10,18 @@ export interface EventDetailsProps {
 }
 
 export function EventDetails({ active, event }: EventDetailsProps) {
-	const formatter = new Intl.DateTimeFormat(region.locale, {
-		day: "numeric",
-		month: "long",
-		timeZone: region.timeZone,
-	});
+	function formatDate(date: Date) {
+		const weekday = date.toLocaleString(region.locale, { weekday: "long" });
+		const day = date.toLocaleString(region.locale, { day: "numeric" });
+		const month = date.toLocaleString(region.locale, { month: "long" });
+		const year = date.toLocaleString(region.locale, { year: "numeric" });
+
+		return `${weekday} ${day} ${month} ${year}`;
+	}
 
 	return (
 		<article className={styles.article}>
-			<h3 className={styles.heading}>{formatter.format(event.date)}</h3>
+			<h3 className={styles.heading}>{formatDate(event.date)}</h3>
 			<div>{event.location}</div>
 			<ul className={styles.list}>
 				{event.topics.map((topic) => (
