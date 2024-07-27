@@ -4,7 +4,10 @@
 		"link": "https://www.eventbrite.com/e/boston-ts-club-v-the-compiler-strikes-back-tickets-???",
 		"location": "Microsoft NERD Center",
 		"time": "5:30pm - 8:30pm",
-		"topics": ["How to rent a car with a JSON Web Token", "OpenJS Foundation"]
+		"topics": [
+		  "Declarative Builds and Deployments with Nix",
+		  "Supabase is Sweet",
+		]
 	},
 	{
 		"date": "2024-07-25T18:00:00.000-04:00",
