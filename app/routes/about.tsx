@@ -20,22 +20,24 @@ export default function About() {
 				learn new things, and show off their work.
 			</BodyText>
 			<BodyText>We're happy for you to join us.</BodyText>
+			<BodyText>
+				Feeling generous? Support us on{" "}
+				<ExternalAnchor
+					href="https://opencollective.com/boston-ts-club"
+					target="_blank"
+				>
+					Open Collective
+				</ExternalAnchor>
+				.
+			</BodyText>
 			<Heading level={3}>The Team</Heading>
 			<BodyText>
 				Reach us over{" "}
-				<ExternalAnchor
-					href="mailto:contact@bostonts.club"
-					target="_blank"
-					variant="underline"
-				>
+				<ExternalAnchor href="mailto:contact@bostonts.club" target="_blank">
 					email
 				</ExternalAnchor>{" "}
 				or{" "}
-				<ExternalAnchor
-					href="https://discord.gg/kKTDgeaWmZ"
-					target="_blank"
-					variant="underline"
-				>
+				<ExternalAnchor href="https://discord.gg/kKTDgeaWmZ" target="_blank">
 					Discord
 				</ExternalAnchor>
 				.

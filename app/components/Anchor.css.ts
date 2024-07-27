@@ -4,9 +4,11 @@ import { vars } from "~/styles.css";
 
 const base = style({
 	fontSize: vars.sizes.medium,
+	textUnderlineOffset: "0.1em",
 });
 
 export const anchor = styleVariants({
+	default: [base],
 	heavy: [
 		base,
 		{
@@ -16,13 +18,6 @@ export const anchor = styleVariants({
 					textDecoration: "underline",
 				},
 			},
-		},
-	],
-	underline: [
-		base,
-		{
-			textDecoration: "underline",
-			textUnderlineOffset: "0.15em",
 		},
 	],
 });
