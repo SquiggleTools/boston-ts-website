@@ -55,6 +55,9 @@ export default function About() {
 				<li>
 					<strong>Jérémie Astori</strong>
 				</li>
+				<li>
+					<strong>Xavier Ruiz</strong>
+				</li>
 			</ul>
 			<Heading level={3}>The Website</Heading>
 			<BodyText>
