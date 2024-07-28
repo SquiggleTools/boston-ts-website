@@ -5,8 +5,8 @@
 		"location": "Microsoft NERD Center",
 		"time": "5:30pm - 8:30pm",
 		"topics": [
-		  "Declarative Builds and Deployments with Nix",
-		  "Supabase is Sweet",
+			"Declarative Builds and Deployments with Nix",
+			"Supabase is Sweet",
 		]
 	},
 	{
