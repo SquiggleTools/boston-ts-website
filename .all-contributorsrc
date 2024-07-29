@@ -40,6 +40,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "xav-ie",
+      "name": "Xavier Ruiz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12320165?v=4",
+      "profile": "http://xav.ie",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -49,7 +58,7 @@
   ],
   "imageSize": 100,
   "projectName": "boston-ts-website",
-  "projectOwner": "JoshuaKGoldberg",
+  "projectOwner": "SquiggleTools",
   "repoHost": "https://github.com",
   "repoType": "github"
 }
