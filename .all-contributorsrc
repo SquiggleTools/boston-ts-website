@@ -40,6 +40,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "astorije",
+      "name": "Jérémie Astori",
+      "avatar_url": "https://avatars.githubusercontent.com/u/113730?v=4",
+      "profile": "https://jeremie.astori.fr",
+      "contributions": [
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -49,7 +58,7 @@
   ],
   "imageSize": 100,
   "projectName": "boston-ts-website",
-  "projectOwner": "JoshuaKGoldberg",
+  "projectOwner": "SquiggleTools",
   "repoHost": "https://github.com",
   "repoType": "github"
 }
