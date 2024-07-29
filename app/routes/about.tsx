@@ -58,6 +58,9 @@ export default function About() {
 				<li>
 					<strong>Xavier Ruiz</strong>
 				</li>
+				<li>
+					<strong>Sean Sanker Jr</strong>
+				</li>
 			</ul>
 			<Heading level={3}>The Website</Heading>
 			<BodyText>
