@@ -1,5 +1,15 @@
 [
 	{
+		"date": "2024-08-29T18:00:00.000-04:00",
+		"link": "https://www.eventbrite.com/e/boston-ts-club-v-the-compiler-strikes-back-supabase-tickets-962814643517",
+		"location": "Microsoft NERD Center",
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			"Declarative Builds and Deployments with Nix",
+			"Supabase is Sweet"
+		]
+	},
+	{
 		"date": "2024-07-25T18:00:00.000-04:00",
 		"link": "https://www.eventbrite.com/e/boston-ts-club-iv-a-new-type-tickets-945788598157",
 		"location": "Microsoft NERD Center",
