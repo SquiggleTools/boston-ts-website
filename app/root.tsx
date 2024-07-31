@@ -14,7 +14,7 @@ export const links: LinksFunction = () => [
 
 export default function App() {
 	return (
-		<html className={clsx(styles.html, themeClass)}>
+		<html className={clsx(styles.html, themeClass)} lang="en">
 			<head>
 				<Meta />
 				<Links />
