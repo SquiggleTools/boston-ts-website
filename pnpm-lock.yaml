@@ -9,25 +9,25 @@ importers:
   .:
     dependencies:
       '@remix-run/css-bundle':
-        specifier: ^2.11.1
+        specifier: ^2.10.0
         version: 2.11.1
       '@remix-run/dev':
-        specifier: ^2.11.1
+        specifier: ^2.10.0
         version: 2.11.1(@remix-run/react@2.11.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@types/node@20.12.12)(typescript@5.5.4)(vite@5.3.5(@types/node@20.12.12))
       '@remix-run/node':
-        specifier: ^2.11.1
+        specifier: ^2.10.0
         version: 2.11.1(typescript@5.5.4)
       '@remix-run/react':
-        specifier: ^2.11.1
+        specifier: ^2.10.0
         version: 2.11.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4)
       '@remix-run/server-runtime':
-        specifier: ^2.11.1
+        specifier: ^2.10.0
         version: 2.11.1(typescript@5.5.4)
       '@vanilla-extract/css':
         specifier: ^1.15.3
         version: 1.15.3
       '@vercel/remix':
-        specifier: ^2.11.1
+        specifier: ^2.10.0
         version: 2.11.1(@remix-run/dev@2.11.1(@remix-run/react@2.11.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@types/node@20.12.12)(typescript@5.5.4)(vite@5.3.5(@types/node@20.12.12)))(@remix-run/node@2.11.1(typescript@5.5.4))(@remix-run/server-runtime@2.11.1(typescript@5.5.4))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       clsx:
         specifier: ^2.1.1
