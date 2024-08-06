@@ -45,7 +45,7 @@
 		"@remix-run/dev": "^2.11.1",
 		"@types/eslint": "^8.56.2",
 		"@types/react": "^18.3.3",
-		"@typescript-eslint/eslint-plugin": "^7.0.2",
+		"@typescript-eslint/eslint-plugin": "^8.0.0",
 		"@typescript-eslint/parser": "^7.0.2",
 		"@vanilla-extract/vite-plugin": "^4.0.13",
 		"cspell": "^8.4.1",
