@@ -1,7 +1,12 @@
 import * as styles from "./AdGrid.css";
 import { AdLogo } from "./AdLogo";
 
-export function AdGrid() {
+export interface AdGridProps {
+	month: string;
+	year: number;
+}
+
+export function AdGrid({ month, year }: AdGridProps) {
 	return (
 		<main className={styles.adGrid}>
 			<div className={styles.imageArea}>
@@ -11,7 +16,9 @@ export function AdGrid() {
 				<h1 className={styles.h1}>
 					Boston <span className={styles.together}>TS Club</span>
 				</h1>
-				<p className={styles.p}>June 2024</p>
+				<p className={styles.p}>
+					{month} {year}
+				</p>
 			</div>
 		</main>
 	);
