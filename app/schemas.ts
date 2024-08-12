@@ -6,13 +6,11 @@ export const eventSchema = z.object({
 	location: z.string(),
 	time: z.string(),
 	topics: z.array(
-		// TODO: Retrieve list of all speakers from past events and remove this line
-		z.string().or(
-			z.object({
-				title: z.string(),
-				author: z.string(),
-			}),
-		),
+		z.object({
+			title: z.string(),
+			// TODO: Remove `.nullish()` when all authors have been added
+			author: z.string().nullish(),
+		}),
 	),
 });
 

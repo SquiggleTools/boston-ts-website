@@ -9,7 +9,10 @@
 				"author": "Xavier Ruiz",
 				"title": "Declarative Builds and Deployments with Nix"
 			},
-			"Supabase is Sweet"
+			{
+				"author": "Josh Goldberg",
+				"title": "Supabase is Sweet"
+			}
 		]
 	},
 	{
@@ -18,8 +21,8 @@
 		"location": "Microsoft NERD Center",
 		"time": "5:30pm - 8:30pm",
 		"topics": [
-			"Web Observables! In The Platform!",
-			"Coding for the Common Good with BUILD UMass"
+			{ "author": null, "title": "Web Observables! In The Platform!" },
+			{ "author": null, "title": "Coding for the Common Good with BUILD UMass" }
 		]
 	},
 	{
@@ -28,8 +31,8 @@
 		"location": "Microsoft NERD Center",
 		"time": "5:30pm - 8:30pm",
 		"topics": [
-			"What's New in TypeScript 5.5",
-			"Group Discussion: Learning TypeScript"
+			{ "author": null, "title": "What's New in TypeScript 5.5" },
+			{ "author": null, "title": "Group Discussion: Learning TypeScript" }
 		]
 	},
 	{
@@ -38,8 +41,14 @@
 		"location": "Microsoft NERD Center",
 		"time": "5:30pm - 8:30pm",
 		"topics": [
-			"Every Single Thing You Can Do With Destructuring",
-			"Conference And Meetup Talk Proposals Helpful Tips"
+			{
+				"author": null,
+				"title": "Every Single Thing You Can Do With Destructuring"
+			},
+			{
+				"author": null,
+				"title": "Conference And Meetup Talk Proposals Helpful Tips"
+			}
 		]
 	},
 	{
@@ -48,9 +57,12 @@
 		"location": "Microsoft NERD Center",
 		"time": "6:00pm - 8:30pm",
 		"topics": [
-			"What's New in TypeScript 5.4",
-			"It's Dangerous to Go to Runtime! Take Your (Ark)Types",
-			"How to Become a Fake Polyglot Programmer"
+			{ "author": null, "title": "What's New in TypeScript 5.4" },
+			{
+				"author": null,
+				"title": "It's Dangerous to Go to Runtime! Take Your (Ark)Types"
+			},
+			{ "author": null, "title": "How to Become a Fake Polyglot Programmer" }
 		]
 	}
 ]

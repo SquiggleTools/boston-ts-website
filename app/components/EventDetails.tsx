@@ -25,17 +25,12 @@ export function EventDetails({ active, event }: EventDetailsProps) {
 			<h3 className={styles.heading}>{formatDate(event.date)}</h3>
 			<div>{event.location}</div>
 			<UnorderedList className={styles.list}>
-				{event.topics.map((topic) =>
-					typeof topic === "string" ? (
-						<li key={topic}>
-							<strong>{topic}</strong>
-						</li>
-					) : (
-						<li key={topic.title}>
-							<strong>{topic.title}</strong> by {topic.author}
-						</li>
-					),
-				)}
+				{event.topics.map((topic) => (
+					<li key={topic.title}>
+						<strong>{topic.title}</strong>
+						{topic.author && <> by {topic.author}</>}
+					</li>
+				))}
 			</UnorderedList>
 			<AnchorWithArrow href={event.link}>
 				{active ? "Register Now" : "Event Info"}
