@@ -6,6 +6,7 @@ import { Aside } from "~/components/Aside";
 import { BodyText } from "~/components/BodyText";
 import { Heading } from "~/components/Heading";
 import { Layout } from "~/components/Layout";
+import { UnorderedList } from "~/components/UnorderedList";
 import { createMeta } from "~/config";
 
 const tagline = `No prior experience or TypeScript expertise required!`;
@@ -30,16 +31,14 @@ export default function About() {
 					Boston TS Club Speaking Form
 				</AnchorWithArrow>
 			</BodyText>
-			<BodyText>
-				All we ask is:
-				<ul>
-					<li>
-						Send us your slides 24 hours in advance, so we can check them for
-						accessibility
-					</li>
-					<li>Be prepared to chat about your talk with attendees</li>
-				</ul>
-			</BodyText>
+			<BodyText>All we ask is:</BodyText>
+			<UnorderedList>
+				<li>
+					Send us your slides 24 hours in advance, so we can check them for
+					accessibility
+				</li>
+				<li>Be prepared to chat about your talk with attendees</li>
+			</UnorderedList>
 			<BodyText>
 				We're happy to give you all the support you need for a great experience,
 				including talk ideation, slides review, and feedback on a dry run. 💙
