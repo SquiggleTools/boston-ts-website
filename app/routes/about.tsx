@@ -61,6 +61,9 @@ export default function About() {
 				<li>
 					<strong>Sean Sanker Jr</strong>
 				</li>
+				<li>
+					<strong>Hadley Garrett</strong>
+				</li>
 			</ul>
 			<Heading level={3}>The Website</Heading>
 			<BodyText>
