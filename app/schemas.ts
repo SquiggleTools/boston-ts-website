@@ -8,7 +8,6 @@ export const eventSchema = z.object({
 	topics: z.array(
 		z.object({
 			title: z.string(),
-			// TODO: Remove `.nullish()` when all authors have been added
 			author: z.string().nullish(),
 		}),
 	),
