@@ -8,7 +8,7 @@
 <p align="center">
 	<!-- prettier-ignore-start -->
 	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-	<a href="#contributors" target="_blank"><img alt="👪 All Contributors: 6" src="https://img.shields.io/badge/%F0%9F%91%AA_all_contributors-6-21bb42.svg" /></a>
+	<a href="#contributors" target="_blank"><img alt="👪 All Contributors: 7" src="https://img.shields.io/badge/%F0%9F%91%AA_all_contributors-7-21bb42.svg" /></a>
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 	<!-- prettier-ignore-end -->
 	<a href="https://github.com/JoshuaKGoldberg/boston-ts-website/blob/main/.github/CODE_OF_CONDUCT.md" target="_blank"><img alt="🤝 Code of Conduct: Kept" src="https://img.shields.io/badge/%F0%9F%A4%9D_code_of_conduct-kept-21bb42" /></a>
@@ -40,6 +40,7 @@ pnpm dev
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/git-megan"><img src="https://avatars.githubusercontent.com/u/114352576?v=4?s=100" width="100px;" alt="Megan"/><br /><sub><b>Megan</b></sub></a><br /><a href="#maintenance-git-megan" title="Maintenance">🚧</a> <a href="#ideas-git-megan" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/SquiggleTools/boston-ts-website/issues?q=author%3Agit-megan" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SeanSanker"><img src="https://avatars.githubusercontent.com/u/9062489?v=4?s=100" width="100px;" alt="Sean Sanker"/><br /><sub><b>Sean Sanker</b></sub></a><br /><a href="https://github.com/SquiggleTools/boston-ts-website/commits?author=seansanker" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://xav.ie"><img src="https://avatars.githubusercontent.com/u/12320165?v=4?s=100" width="100px;" alt="Xavier Ruiz"/><br /><sub><b>Xavier Ruiz</b></sub></a><br /><a href="https://github.com/SquiggleTools/boston-ts-website/commits?author=xav-ie" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/hadleygarrett"><img src="https://avatars.githubusercontent.com/u/124802365?v=4?s=100" width="100px;" alt="hadleygarrett"/><br /><sub><b>hadleygarrett</b></sub></a><br /><a href="https://github.com/SquiggleTools/boston-ts-website/commits?author=hadleygarrett" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
