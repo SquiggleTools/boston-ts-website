@@ -33,7 +33,9 @@ export function EventDetails({ active, event }: EventDetailsProps) {
 								{" "}
 								by{" "}
 								{topic.author.url ? (
-									<a href={topic.author.url}>{topic.author.name}</a>
+									<AnchorWithArrow href={topic.author.url}>
+										{topic.author.name}
+									</AnchorWithArrow>
 								) : (
 									topic.author.name
 								)}
