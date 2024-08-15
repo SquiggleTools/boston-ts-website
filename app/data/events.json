@@ -6,7 +6,9 @@
 		"time": "5:30pm - 8:30pm",
 		"topics": [
 			{
-				"author": "Xavier Ruiz",
+				"author": {
+					"name": "Xavier Ruiz"
+				},
 				"title": "Declarative Builds and Deployments with Nix"
 			},
 			{
@@ -25,7 +27,9 @@
 		"time": "5:30pm - 8:30pm",
 		"topics": [
 			{
-				"author": "Dominic Farolino",
+				"author": {
+					"name": "Dominic Farolino"
+				},
 				"title": "Web Observables! In The Platform!"
 			},
 			{
@@ -60,11 +64,15 @@
 		"time": "5:30pm - 8:30pm",
 		"topics": [
 			{
-				"author": "Dimitri Mitropoulos",
+				"author": {
+					"name": "Dimitri Mitropoulos"
+				},
 				"title": "Every Single Thing You Can Do With Destructuring"
 			},
 			{
-				"author": "Anna Astori",
+				"author": {
+					"name": "Anna Astori"
+				},
 				"title": "Conference And Meetup Talk Proposals Helpful Tips"
 			}
 		]
@@ -83,11 +91,15 @@
 				"title": "What's New in TypeScript 5.4"
 			},
 			{
-				"author": "David Blass",
+				"author": {
+					"name": "David Blass"
+				},
 				"title": "It's Dangerous to Go to Runtime! Take Your (Ark)Types"
 			},
 			{
-				"author": "Nnenna Ndukwe",
+				"author": {
+					"name": "Nnenna Ndukwe"
+				},
 				"title": "How to Become a Fake Polyglot Programmer"
 			}
 		]

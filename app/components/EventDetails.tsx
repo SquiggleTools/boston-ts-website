@@ -32,9 +32,7 @@ export function EventDetails({ active, event }: EventDetailsProps) {
 							<>
 								{" "}
 								by{" "}
-								{typeof topic.author === "string" ? (
-									topic.author
-								) : topic.author.url ? (
+								{topic.author.url ? (
 									<a href={topic.author.url}>{topic.author.name}</a>
 								) : (
 									topic.author.name

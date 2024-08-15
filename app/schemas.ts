@@ -7,16 +7,13 @@ export const eventSchema = z.object({
 	time: z.string(),
 	topics: z.array(
 		z.object({
-			title: z.string(),
 			author: z
-				.string()
-				.or(
-					z.object({
-						name: z.string(),
-						url: z.string().nullish(),
-					}),
-				)
+				.object({
+					name: z.string(),
+					url: z.string().nullish(),
+				})
 				.nullish(),
+			title: z.string(),
 		}),
 	),
 });
