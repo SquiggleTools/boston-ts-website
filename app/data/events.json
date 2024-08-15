@@ -10,7 +10,10 @@
 				"title": "Declarative Builds and Deployments with Nix"
 			},
 			{
-				"author": "Josh Goldberg",
+				"author": {
+					"name": "Josh Goldberg",
+					"url": "https://joshuakgoldberg.com/"
+				},
 				"title": "Supabase is Sweet"
 			}
 		]
@@ -26,7 +29,10 @@
 				"title": "Web Observables! In The Platform!"
 			},
 			{
-				"author": "Abhijit Ajit Kamath",
+				"author": {
+					"name": "Abhijit Ajit Kamath",
+					"url": "https://abhijitkamath.com/"
+				},
 				"title": "Coding for the Common Good with BUILD UMass"
 			}
 		]
@@ -37,7 +43,13 @@
 		"location": "Microsoft NERD Center",
 		"time": "5:30pm - 8:30pm",
 		"topics": [
-			{ "author": "Josh Goldberg", "title": "What's New in TypeScript 5.5" },
+			{
+				"author": {
+					"name": "Josh Goldberg",
+					"url": "https://joshuakgoldberg.com/"
+				},
+				"title": "What's New in TypeScript 5.5"
+			},
 			{ "title": "Group Discussion: Learning TypeScript" }
 		]
 	},
@@ -63,7 +75,13 @@
 		"location": "Microsoft NERD Center",
 		"time": "6:00pm - 8:30pm",
 		"topics": [
-			{ "author": "Josh Goldberg", "title": "What's New in TypeScript 5.4" },
+			{
+				"author": {
+					"name": "Josh Goldberg",
+					"url": "https://joshuakgoldberg.com/"
+				},
+				"title": "What's New in TypeScript 5.4"
+			},
 			{
 				"author": "David Blass",
 				"title": "It's Dangerous to Go to Runtime! Take Your (Ark)Types"

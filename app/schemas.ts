@@ -8,7 +8,15 @@ export const eventSchema = z.object({
 	topics: z.array(
 		z.object({
 			title: z.string(),
-			author: z.string().nullish(),
+			author: z
+				.string()
+				.or(
+					z.object({
+						name: z.string(),
+						url: z.string().nullish(),
+					}),
+				)
+				.nullish(),
 		}),
 	),
 });

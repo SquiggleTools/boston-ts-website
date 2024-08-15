@@ -28,7 +28,19 @@ export function EventDetails({ active, event }: EventDetailsProps) {
 				{event.topics.map((topic) => (
 					<li key={topic.title}>
 						<strong>{topic.title}</strong>
-						{topic.author && <> by {topic.author}</>}
+						{topic.author && (
+							<>
+								{" "}
+								by{" "}
+								{typeof topic.author === "string" ? (
+									topic.author
+								) : topic.author.url ? (
+									<a href={topic.author.url}>{topic.author.name}</a>
+								) : (
+									topic.author.name
+								)}
+							</>
+						)}
 					</li>
 				))}
 			</UnorderedList>
