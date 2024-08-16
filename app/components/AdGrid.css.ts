@@ -66,7 +66,7 @@ export const h1 = style({
 	"@media": {
 		[breakpoints.medium]: {
 			fontSize: `clamp(5rem, 9vw, 8rem)`,
-			fontWeight: "700",
+			fontWeight: vars.weights.large,
 		},
 	},
 

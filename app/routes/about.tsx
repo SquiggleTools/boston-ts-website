@@ -4,6 +4,7 @@ import { ExternalAnchor } from "~/components/Anchor";
 import { BodyText } from "~/components/BodyText";
 import { Heading } from "~/components/Heading";
 import { Layout } from "~/components/Layout";
+import { UnorderedList } from "~/components/UnorderedList";
 import { createMeta, site } from "~/config";
 
 const tagline = `We meet once every month or two to chat about our favorite typed superset of JavaScript.`;
@@ -42,7 +43,7 @@ export default function About() {
 				</ExternalAnchor>
 				.
 			</BodyText>
-			<ul>
+			<UnorderedList>
 				<li>
 					<strong>Josh Goldberg</strong>
 				</li>
@@ -61,7 +62,7 @@ export default function About() {
 				<li>
 					<strong>Hadley Garrett</strong>
 				</li>
-			</ul>
+			</UnorderedList>
 			<Heading level={3}>The Website</Heading>
 			<BodyText>
 				Built with React, Remix, TypeScript, Vanilla Extract, and Vite.

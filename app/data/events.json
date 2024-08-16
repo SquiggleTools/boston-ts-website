@@ -5,8 +5,20 @@
 		"location": "Microsoft NERD Center",
 		"time": "5:30pm - 8:30pm",
 		"topics": [
-			"Declarative Builds and Deployments with Nix",
-			"Supabase is Sweet"
+			{
+				"author": {
+					"name": "Xavier Ruiz",
+					"url": "https://xav.ie"
+				},
+				"title": "Declarative Builds and Deployments with Nix"
+			},
+			{
+				"author": {
+					"name": "Josh Goldberg",
+					"url": "https://joshuakgoldberg.com/"
+				},
+				"title": "Supabase is Sweet"
+			}
 		]
 	},
 	{
@@ -15,8 +27,19 @@
 		"location": "Microsoft NERD Center",
 		"time": "5:30pm - 8:30pm",
 		"topics": [
-			"Web Observables! In The Platform!",
-			"Coding for the Common Good with BUILD UMass"
+			{
+				"author": {
+					"name": "Dominic Farolino"
+				},
+				"title": "Web Observables! In The Platform!"
+			},
+			{
+				"author": {
+					"name": "Abhijit Ajit Kamath",
+					"url": "https://abhijitkamath.com/"
+				},
+				"title": "Coding for the Common Good with BUILD UMass"
+			}
 		]
 	},
 	{
@@ -25,8 +48,14 @@
 		"location": "Microsoft NERD Center",
 		"time": "5:30pm - 8:30pm",
 		"topics": [
-			"What's New in TypeScript 5.5",
-			"Group Discussion: Learning TypeScript"
+			{
+				"author": {
+					"name": "Josh Goldberg",
+					"url": "https://joshuakgoldberg.com/"
+				},
+				"title": "What's New in TypeScript 5.5"
+			},
+			{ "title": "Group Discussion: Learning TypeScript" }
 		]
 	},
 	{
@@ -35,8 +64,19 @@
 		"location": "Microsoft NERD Center",
 		"time": "5:30pm - 8:30pm",
 		"topics": [
-			"Every Single Thing You Can Do With Destructuring",
-			"Conference And Meetup Talk Proposals Helpful Tips"
+			{
+				"author": {
+					"name": "Dimitri Mitropoulos"
+				},
+				"title": "Every Single Thing You Can Do With Destructuring"
+			},
+			{
+				"author": {
+					"name": "Anna Astori",
+					"url": "https://www.linkedin.com/in/anna-astori/"
+				},
+				"title": "Conference And Meetup Talk Proposals Helpful Tips"
+			}
 		]
 	},
 	{
@@ -45,9 +85,26 @@
 		"location": "Microsoft NERD Center",
 		"time": "6:00pm - 8:30pm",
 		"topics": [
-			"What's New in TypeScript 5.4",
-			"It's Dangerous to Go to Runtime! Take Your (Ark)Types",
-			"How to Become a Fake Polyglot Programmer"
+			{
+				"author": {
+					"name": "Josh Goldberg",
+					"url": "https://joshuakgoldberg.com/"
+				},
+				"title": "What's New in TypeScript 5.4"
+			},
+			{
+				"author": {
+					"name": "David Blass",
+					"url": "https://x.com/ssalbdivad"
+				},
+				"title": "It's Dangerous to Go to Runtime! Take Your (Ark)Types"
+			},
+			{
+				"author": {
+					"name": "Nnenna Ndukwe"
+				},
+				"title": "How to Become a Fake Polyglot Programmer"
+			}
 		]
 	}
 ]

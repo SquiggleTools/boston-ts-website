@@ -12,7 +12,6 @@ export function AnchorWithArrow({ children, href }: AnchorWithArrowProps) {
 			href={href}
 			rel="noreferrer"
 			target="_blank"
-			variant="heavy"
 		>
 			{children}
 			<Arrow className={styles.arrow} label="" variant="out" />

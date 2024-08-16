@@ -1,9 +1,8 @@
 import { style } from "@vanilla-extract/css";
 
 export const anchor = style({
-	display: "flex",
-	gap: "0.25em",
-	justifyContent: "flex-start",
+	alignItems: "center",
+	display: "inline-flex",
 });
 
 export const arrow = style({
