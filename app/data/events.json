@@ -7,7 +7,8 @@
 		"topics": [
 			{
 				"author": {
-					"name": "Xavier Ruiz"
+					"name": "Xavier Ruiz",
+					"url": "https://xav.ie"
 				},
 				"title": "Declarative Builds and Deployments with Nix"
 			},
@@ -71,7 +72,8 @@
 			},
 			{
 				"author": {
-					"name": "Anna Astori"
+					"name": "Anna Astori",
+					"url": "https://www.linkedin.com/in/anna-astori/"
 				},
 				"title": "Conference And Meetup Talk Proposals Helpful Tips"
 			}
@@ -92,7 +94,8 @@
 			},
 			{
 				"author": {
-					"name": "David Blass"
+					"name": "David Blass",
+					"url": "https://x.com/ssalbdivad"
 				},
 				"title": "It's Dangerous to Go to Runtime! Take Your (Ark)Types"
 			},
