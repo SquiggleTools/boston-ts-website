@@ -17,6 +17,7 @@
 		"dev": "remix vite:dev",
 		"format": "prettier --cache --write .",
 		"lint": "eslint . .*js --max-warnings 0",
+		"lint:format": "prettier --cache --check .",
 		"lint:knip": "knip",
 		"lint:md": "markdownlint \"**/*.md\" \".github/**/*.md\" --rules sentences-per-line",
 		"lint:packages": "pnpm dedupe --check",
