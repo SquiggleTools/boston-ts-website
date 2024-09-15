@@ -1,5 +1,41 @@
 [
 	{
+		"date": "2024-09-29T18:00:00.000-04:00",
+		"link": "https://www.eventbrite.com/e/boston-ts-club-vi-rise-of-the-squiggles-tickets-1014606444187",
+		"location": "Microsoft NERD Center",
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			{
+				"author": {
+					"name": "Josh Goldberg",
+					"url": "https://joshuakgoldberg.com/"
+				},
+				"title": "What's New in TypeScript 5.5"
+			},
+			{
+				"author": {
+					"name": "Paula Paul",
+					"url": ""
+				},
+				"title": "The OpenJS Foundation"
+			},
+			{
+				"author": {
+					"name": "Corina Murg",
+					"url": ""
+				},
+				"title": "Harnessing The Accessibility Tree"
+			},
+			{
+				"author": {
+					"name": "Rizèl Scarlett",
+					"url": ""
+				},
+				"title": "How to Rent a Car with a JSON Web Token"
+			}
+		]
+	},
+	{
 		"date": "2024-08-29T18:00:00.000-04:00",
 		"link": "https://www.eventbrite.com/e/boston-ts-club-v-the-compiler-strikes-back-supabase-tickets-962814643517",
 		"location": "Microsoft NERD Center",
