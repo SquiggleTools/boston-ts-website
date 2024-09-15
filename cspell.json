@@ -1,5 +1,11 @@
 {
-	"dictionaries": ["typescript"],
+	"dictionaries": ["speaker-names", "typescript"],
+	"dictionaryDefinitions": [
+		{
+			"name": "speaker-names",
+			"path": "./cspell.speaker-names.txt"
+		}
+	],
 	"ignorePaths": [
 		".github",
 		"CHANGELOG.md",
@@ -9,26 +15,20 @@
 		"node_modules",
 		"pnpm-lock.yaml"
 	],
+	"overrides": [
+		{
+			"filename": "**/*.css.ts",
+			"languageId": "css"
+		}
+	],
 	"words": [
-		"Abhijit",
-		"Ajit",
 		"Astori",
-		"Blass",
 		"bluesky",
 		"bostonts",
-		"clsx",
-		"currentcolor",
-		"Dimitri",
-		"Farolino",
 		"Hadley",
 		"isbot",
 		"Jérémie",
-		"Kamath",
 		"knip",
-		"Mariah",
-		"Mitropoulos",
-		"Ndukwe",
-		"Nnenna",
 		"packagejson",
 		"Sanker",
 		"Supabase"
