@@ -17,14 +17,6 @@ export const heading = styleVariants({
 	3: [
 		base,
 		{
-			fontSize: vars.sizes.subHeading,
-			lineHeight: vars.lineHeights.medium,
-			marginTop: "4rem",
-		},
-	],
-	4: [
-		base,
-		{
 			fontSize: vars.sizes.large,
 			lineHeight: vars.lineHeights.medium,
 			marginTop: "3rem",
