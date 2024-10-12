@@ -62,6 +62,9 @@ export default function About() {
 				<li>
 					<strong>Hadley Garrett</strong>
 				</li>
+				<li>
+					<strong>Sahana J Prakash</strong>
+				</li>
 			</UnorderedList>
 			<Heading level={3}>The Website</Heading>
 			<BodyText>
