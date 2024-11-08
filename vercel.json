@@ -1,0 +1,9 @@
+{
+	"redirects": [
+		{
+			"destination": "https://opencollective.com/boston-ts-club",
+			"permanent": true,
+			"source": "/donate"
+		}
+	]
+}
