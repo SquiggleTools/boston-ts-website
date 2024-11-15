@@ -18,6 +18,13 @@
 					"url": "https://www.linkedin.com/in/pariss-chandler"
 				},
 				"title": "Black Tech Pipeline"
+			},
+			{
+				"author": {
+					"name": "Sean Sanker Jr",
+					"url": "https://www.linkedin.com/in/seansankerjr"
+				},
+				"title": "Intro to CloudFlare Workers"
 			}
 		]
 	},
