@@ -18,6 +18,13 @@
 					"url": "https://www.linkedin.com/in/pariss-chandler"
 				},
 				"title": "Navigating the Shifting Job Market"
+			},
+			{
+				"author": {
+					"name": "Sean Sanker Jr",
+					"url": "https://www.linkedin.com/in/seansankerjr"
+				},
+				"title": "Intro to CloudFlare Workers"
 			}
 		]
 	},
