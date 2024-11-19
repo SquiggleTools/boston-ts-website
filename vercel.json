@@ -1,0 +1,14 @@
+{
+	"redirects": [
+		{
+			"destination": "https://opencollective.com/boston-ts-club",
+			"permanent": true,
+			"source": "/donate"
+		},
+		{
+			"destination": "https://docs.google.com/forms/d/e/1FAIpQLSevxqyXjEE2AQ8C7xxkmoiiasr5ONIvPyAl8ad-MseNZ2ZBxA/viewform",
+			"permanent": false,
+			"source": "/feedback"
+		}
+	]
+}
