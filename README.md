@@ -8,7 +8,7 @@
 <p align="center">
 	<!-- prettier-ignore-start -->
 	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-	<a href="#contributors" target="_blank"><img alt="👪 All Contributors: 8" src="https://img.shields.io/badge/%F0%9F%91%AA_all_contributors-8-21bb42.svg" /></a>
+	<a href="#contributors" target="_blank"><img alt="👪 All Contributors: 9" src="https://img.shields.io/badge/%F0%9F%91%AA_all_contributors-9-21bb42.svg" /></a>
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 	<!-- prettier-ignore-end -->
 	<a href="https://github.com/JoshuaKGoldberg/boston-ts-website/blob/main/.github/CODE_OF_CONDUCT.md" target="_blank"><img alt="🤝 Code of Conduct: Kept" src="https://img.shields.io/badge/%F0%9F%A4%9D_code_of_conduct-kept-21bb42" /></a>
@@ -44,6 +44,7 @@ pnpm dev
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/hadleygarrett"><img src="https://avatars.githubusercontent.com/u/124802365?v=4?s=100" width="100px;" alt="hadleygarrett"/><br /><sub><b>hadleygarrett</b></sub></a><br /><a href="https://github.com/SquiggleTools/boston-ts-website/commits?author=hadleygarrett" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/rebecca-millerr"><img src="https://avatars.githubusercontent.com/u/52360419?v=4?s=100" width="100px;" alt="rebecca-millerr"/><br /><sub><b>rebecca-millerr</b></sub></a><br /><a href="https://github.com/SquiggleTools/boston-ts-website/commits?author=rebecca-millerr" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
