@@ -7,15 +7,13 @@
 		"topics": [
 			{
 				"author": {
-					"name": "Josh Goldberg",
-					"url": "https://joshuakgoldberg.com/"
+					"name": "Your Name Here!"
 				},
-				"title": "What's New in TypeScript 5.7"
+				"title": "Your Talk Here!"
 			},
 			{
 				"author": {
-					"name": "Rebecca Miller",
-					"url": "https://www.linkedin.com/in/rebecca-millerr/"
+					"name": "Savannah Bosse"
 				},
 				"title": "Beyond Buttons: The Dark (and Delightful) Side of Design Systems"
 			}
@@ -29,13 +27,15 @@
 		"topics": [
 			{
 				"author": {
-					"name": "Your Name Here!"
+					"name": "Josh Goldberg",
+					"url": "https://joshuakgoldberg.com/"
 				},
-				"title": "Your Talk Here!"
+				"title": "What's New in TypeScript 5.7"
 			},
 			{
 				"author": {
-					"name": "Savannah Bosse"
+					"name": "Rebecca Miller",
+					"url": "https://www.linkedin.com/in/rebecca-millerr/"
 				},
 				"title": "Beyond Buttons: The Dark (and Delightful) Side of Design Systems"
 			}
