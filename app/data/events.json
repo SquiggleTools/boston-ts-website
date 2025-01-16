@@ -1,5 +1,19 @@
 [
 	{
+		"date": "2025-02-20T18:00:00.000-04:00",
+		"link": "https://www.eventbrite.com/e/boston-ts-club-for-the-love-of-types-tickets-1206069760119",
+		"location": "Microsoft NERD Center",
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			{
+				"author": {
+					"name": "Your Name Here!"
+				},
+				"title": "Your Talk Here!"
+			}
+		]
+	},
+	{
 		"date": "2025-01-16T18:00:00.000-04:00",
 		"link": "https://www.eventbrite.com/e/boston-ts-club-new-year-new-type-tickets-1086018734269",
 		"location": "Microsoft NERD Center",
