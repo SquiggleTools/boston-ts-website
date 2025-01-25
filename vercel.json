@@ -1,6 +1,11 @@
 {
 	"redirects": [
 		{
+			"destination": "https://discord.gg/kKTDgeaWmZ",
+			"permanent": false,
+			"source": "/discord"
+		},
+		{
 			"destination": "https://opencollective.com/boston-ts-club",
 			"permanent": true,
 			"source": "/donate"
