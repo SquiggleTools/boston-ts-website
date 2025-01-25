@@ -1,9 +1,19 @@
 {
 	"redirects": [
 		{
+			"destination": "https://discord.gg/kKTDgeaWmZ",
+			"permanent": false,
+			"source": "/discord"
+		},
+		{
 			"destination": "https://opencollective.com/boston-ts-club",
 			"permanent": true,
 			"source": "/donate"
+		},
+		{
+			"destination": "https://www.eventbrite.com/o/boston-ts-club-80328650813",
+			"permanent": false,
+			"source": "/eventbrite"
 		},
 		{
 			"destination": "https://docs.google.com/forms/d/e/1FAIpQLSevxqyXjEE2AQ8C7xxkmoiiasr5ONIvPyAl8ad-MseNZ2ZBxA/viewform",
