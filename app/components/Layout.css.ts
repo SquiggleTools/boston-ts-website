@@ -70,7 +70,7 @@ export const dot = style({
 			borderRadius: "100%",
 			display: "inline-block",
 			height: "0.85rem",
-			margin: "0 1.5rem 1rem",
+			margin: "0 1rem 1rem",
 			width: "0.85rem",
 		},
 	},
