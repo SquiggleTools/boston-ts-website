@@ -47,6 +47,11 @@ export function Layout({ back, children, title }: LayoutProps) {
 					<InternalAnchor reloadDocument to="/speak" variant="heavy">
 						Speak
 					</InternalAnchor>
+				</div>
+				<div className={styles.footerLinks}>
+					<InternalAnchor reloadDocument to="/code-of-conduct" variant="heavy">
+						Code of Conduct
+					</InternalAnchor>
 					<span className={styles.dot} />
 					<InternalAnchor reloadDocument to="/faq" variant="heavy">
 						FAQ

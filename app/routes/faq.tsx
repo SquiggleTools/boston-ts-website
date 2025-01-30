@@ -52,13 +52,6 @@ export default function FAQ() {
 				</ExternalAnchor>{" "}
 				form.
 			</BodyText>
-
-			<Heading level={3}>Is there a Code of Conduct?</Heading>
-			<BodyText>
-				Yes! You will find the details on how we promote a respectful and
-				inclusive environment to all on our{" "}
-				<InternalAnchor to="/code-of-conduct">Code of Conduct</InternalAnchor>.
-			</BodyText>
 		</Layout>
 	);
 }
