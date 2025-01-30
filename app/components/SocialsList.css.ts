@@ -6,13 +6,13 @@ export const socialsList = style({
 	"@media": {
 		[breakpoints.medium]: {
 			justifyContent: "space-between",
-			marginTop: "0.5rem",
 		},
 	},
 	display: "flex",
 	gap: "1rem",
 	listStyleType: "none",
 	margin: 0,
+	marginTop: "0.5rem",
 	paddingLeft: 0,
 });
 
