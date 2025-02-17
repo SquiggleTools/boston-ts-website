@@ -53,6 +53,7 @@ export const footerLinks = style({
 			alignItems: "flex-end",
 			flexDirection: "row",
 			justifyContent: "space-between",
+			paddingBottom: "1rem",
 			textAlign: "right",
 		},
 	},
@@ -60,7 +61,7 @@ export const footerLinks = style({
 	flexDirection: "column",
 	gap: "0.25rem",
 	justifyContent: "flex-end",
-	paddingBottom: "1rem",
+	paddingBottom: "0.5rem",
 });
 
 export const dot = style({
@@ -70,7 +71,7 @@ export const dot = style({
 			borderRadius: "100%",
 			display: "inline-block",
 			height: "0.85rem",
-			margin: "0 1.5rem 1rem",
+			margin: "0 1rem 1rem",
 			width: "0.85rem",
 		},
 	},
