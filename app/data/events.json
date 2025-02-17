@@ -1,5 +1,26 @@
 [
 	{
+		"date": "2025-03-20T18:00:00.000-04:00",
+		"link": "https://www.eventbrite.com/e/boston-ts-club-TBD",
+		"location": "Microsoft NERD Center",
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			{
+				"author": {
+					"name": "Blake Lingenau"
+				},
+				"title": "Yes And!"
+			},
+			{
+				"author": {
+					"name": "Rhe Civitello",
+					"url": "https://www.rhecivitello.com/"
+				},
+				"title": "Let's Draw!"
+			}
+		]
+	},
+	{
 		"date": "2025-02-20T18:00:00.000-04:00",
 		"link": "https://www.eventbrite.com/e/boston-ts-club-for-the-love-of-types-tickets-1206069760119",
 		"location": "Microsoft NERD Center",
