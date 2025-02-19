@@ -1,4 +1,5 @@
 import type { AuthorData } from "~/schemas";
+
 import { AnchorWithArrow } from "./AnchorWithArrow";
 
 interface AuthorProps {

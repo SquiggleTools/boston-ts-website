@@ -2,11 +2,10 @@ import { region } from "~/config";
 import { EventData } from "~/schemas";
 
 import { AnchorWithArrow } from "./AnchorWithArrow";
-import { UnorderedList } from "./UnorderedList";
-import { OxfordCommaList } from "./OxfordCommaList";
 import { Author } from "./Author";
-
 import * as styles from "./EventDetails.css";
+import { OxfordCommaList } from "./OxfordCommaList";
+import { UnorderedList } from "./UnorderedList";
 
 export interface EventDetailsProps {
 	active?: boolean;
