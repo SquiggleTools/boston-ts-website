@@ -6,9 +6,14 @@
 		"time": "5:30pm - 8:30pm",
 		"topics": [
 			{
-				"author": {
-					"name": "Matt Luo and RJ Dellecese"
-				},
+				"author": [
+					{
+						"name": "RJ Dellecese"
+					},
+					{
+						"name": "Matt Luo"
+					}
+				],
 				"title": "Intro to Convex"
 			},
 			{
