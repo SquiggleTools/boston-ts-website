@@ -7,6 +7,13 @@
 		"topics": [
 			{
 				"author": {
+					"name": "Josh Goldberg",
+					"url": "https://joshuakgoldberg.com"
+				},
+				"title": "What's New in TypeScript 5.8"
+			},
+			{
+				"author": {
 					"name": "Blake Lingenau"
 				},
 				"title": "Yes And!"
