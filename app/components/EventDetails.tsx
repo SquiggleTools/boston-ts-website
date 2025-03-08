@@ -2,7 +2,9 @@ import { region } from "~/config";
 import { EventData } from "~/schemas";
 
 import { AnchorWithArrow } from "./AnchorWithArrow";
+import { Author } from "./Author";
 import * as styles from "./EventDetails.css";
+import { OxfordCommaList } from "./OxfordCommaList";
 import { UnorderedList } from "./UnorderedList";
 
 export interface EventDetailsProps {
@@ -32,12 +34,14 @@ export function EventDetails({ active, event }: EventDetailsProps) {
 							<>
 								{" "}
 								by{" "}
-								{topic.author.url ? (
-									<AnchorWithArrow href={topic.author.url}>
-										{topic.author.name}
-									</AnchorWithArrow>
+								{Array.isArray(topic.author) ? (
+									<OxfordCommaList
+										items={topic.author.map((author) => (
+											<Author author={author} />
+										))}
+									/>
 								) : (
-									topic.author.name
+									<Author author={topic.author} />
 								)}
 							</>
 						)}

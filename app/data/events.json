@@ -27,10 +27,17 @@
 		"time": "5:30pm - 8:30pm",
 		"topics": [
 			{
-				"author": {
-					"name": "Matt Luo and RJ Dellecese"
-				},
-				"title": "TBD"
+				"author": [
+					{
+						"name": "RJ Dellecese",
+						"url": "https://github.com/rjdellecese"
+					},
+					{
+						"name": "Matt Luo",
+						"url": "https://www.matthewluo.com/"
+					}
+				],
+				"title": "Intro to Convex"
 			},
 			{
 				"author": {
