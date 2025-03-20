@@ -48,9 +48,6 @@ export default function About() {
 					<strong>Josh Goldberg</strong>
 				</li>
 				<li>
-					<strong>Mariah Goldberg</strong>
-				</li>
-				<li>
 					<strong>Jérémie Astori</strong>
 				</li>
 				<li>
