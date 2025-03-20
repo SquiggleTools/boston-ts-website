@@ -45,22 +45,22 @@ export default function About() {
 			</BodyText>
 			<UnorderedList>
 				<li>
-					<strong>Josh Goldberg</strong>
+					<strong>Hadley Garrett</strong>
 				</li>
 				<li>
 					<strong>Jérémie Astori</strong>
 				</li>
 				<li>
-					<strong>Xavier Ruiz</strong>
+					<strong>Josh Goldberg</strong>
+				</li>
+				<li>
+					<strong>Sahana J Prakash</strong>
 				</li>
 				<li>
 					<strong>Sean Sanker Jr</strong>
 				</li>
 				<li>
-					<strong>Hadley Garrett</strong>
-				</li>
-				<li>
-					<strong>Sahana J Prakash</strong>
+					<strong>Xavier Ruiz</strong>
 				</li>
 			</UnorderedList>
 			<Heading level={3}>The Website</Heading>
