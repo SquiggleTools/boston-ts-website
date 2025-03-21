@@ -35,9 +35,14 @@ export default function About() {
 			<UnorderedList>
 				<li>
 					Send us your slides 24 hours in advance, so we can check them for
-					accessibility
+					accessibility and/or dry run your talk with us the week before
 				</li>
+				<li>Arrive at the meetup before it starts</li>
 				<li>Be prepared to chat about your talk with attendees</li>
+				<li>
+					Optional: Provide us with an avatar, name, description, and URL
+					(social, website, etc.)
+				</li>
 			</UnorderedList>
 			<BodyText>
 				We're happy to give you all the support you need for a great experience,
