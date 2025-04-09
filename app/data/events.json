@@ -1,23 +1,23 @@
 [
 	{
 		"date": "2025-04-17T18:00:00.000-04:00",
-		"link": "https://www.eventbrite.com/e/boston-ts-club-???",
+		"link": "https://www.eventbrite.com/e/boston-ts-club-april-types-tickets-1316575515809",
 		"location": "Microsoft NERD Center",
 		"time": "5:30pm - 8:30pm",
 		"topics": [
-			{
-				"author": {
-					"name": "Rhe Civitello",
-					"url": "https://www.rhecivitello.com/"
-				},
-				"title": "Let's Draw!"
-			},
 			{
 				"author": {
 					"name": "David Blass",
 					"url": "https://x.com/ssalbdivad"
 				},
 				"title": "ArkType 2 Announcement"
+			},
+			{
+				"author": {
+					"name": "Rhe Civitello",
+					"url": "https://www.rhecivitello.com/"
+				},
+				"title": "Let's Draw!"
 			}
 		]
 	},
