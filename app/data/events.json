@@ -1,5 +1,20 @@
 [
 	{
+		"date": "2025-05-15T18:00:00.000-04:00",
+		"link": "https://www.eventbrite.com/e/boston-ts-club-typistry-tickers-?????????????",
+		"location": "Microsoft NERD Center",
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			{
+				"author": {
+					"name": "Shea Belsky",
+					"url": "https://sheabelsky.com/"
+				},
+				"title": "Neurodiversity & TypeScript"
+			}
+		]
+	},
+	{
 		"date": "2025-04-17T18:00:00.000-04:00",
 		"link": "https://www.eventbrite.com/e/boston-ts-club-april-types-tickets-1316575515809",
 		"location": "Microsoft NERD Center",
