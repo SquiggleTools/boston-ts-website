@@ -7,15 +7,17 @@ const authorSchema = z.object({
 
 export const eventSchema = z.object({
 	date: z.coerce.date(),
-	link: z.string(),
+	link: z.string().nullish(),
 	location: z.string(),
 	time: z.string(),
-	topics: z.array(
-		z.object({
-			author: authorSchema.or(z.array(authorSchema)).nullish(),
-			title: z.string(),
-		}),
-	),
+	topics: z
+		.array(
+			z.object({
+				author: authorSchema.or(z.array(authorSchema)).nullish(),
+				title: z.string(),
+			}),
+		)
+		.nullish(),
 });
 
 export type AuthorData = z.infer<typeof authorSchema>;
