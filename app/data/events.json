@@ -1,8 +1,35 @@
 [
 	{
-		"date": "2025-06-24T18:00:00.000-04:00",
+		"date": "2025-07-17T18:00:00.000-04:00",
 		"location": "Microsoft NERD Center",
 		"time": "5:30pm - 8:30pm"
+	},
+	{
+		"date": "2025-06-24T18:00:00.000-04:00",
+		"location": "Microsoft NERD Center",
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			{
+				"author": {
+					"name": "Jainal Gosilaya",
+					"url": "https://github.com/jainal09"
+				},
+				"title": "Taming Tight Loops: How a Small Fix Dropped CPU Usage from 355% to 20%"
+			},
+			{
+				"author": {
+					"name": "Evan White"
+				},
+				"title": "Setting up Containers Declaratively with Quadlet"
+			},
+			{
+				"author": {
+					"name": "Sean Sanker Jr",
+					"url": "https://www.linkedin.com/in/seansankerjr"
+				},
+				"title": "What's New in TypeScript 5.9"
+			}
+		]
 	},
 	{
 		"date": "2025-05-15T18:00:00.000-04:00",
