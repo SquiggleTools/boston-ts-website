@@ -18,13 +18,6 @@
 		"topics": [
 			{
 				"author": {
-					"name": "Jainal Gosilaya",
-					"url": "https://github.com/jainal09"
-				},
-				"title": "Taming Tight Loops: How a Small Fix Dropped CPU Usage from 355% to 20%"
-			},
-			{
-				"author": {
 					"name": "Evan White"
 				},
 				"title": "Setting up Containers Declaratively with Quadlet"
