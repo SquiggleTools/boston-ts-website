@@ -35,10 +35,10 @@ export default function About() {
 			<UnorderedList>
 				<li>
 					Present a dry run of your talk the week before, so we can check it for
-					accessibility issues and make sure it runs the expected duration:
+					accessibility issues and make sure it runs to the expected duration:
 					<ul>
-						<li>Main talk: 20 minutes</li>
-						<li>Lightning talk: 10 minutes</li>
+						<li>Main talk: ~20 minutes</li>
+						<li>Lightning talk: ~10 minutes</li>
 					</ul>
 				</li>
 				<li>Arrive at the meetup before it starts</li>
