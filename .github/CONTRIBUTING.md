@@ -39,11 +39,6 @@ Please don't post comments asking for permission or stating you will work on an 
 Once you've identified an open issue accepting PRs that doesn't yet have a PR sent, you're free to send a pull request.
 Be sure to fill out the pull request template's requested information -- otherwise your PR will likely be closed.
 
-PRs are also expected to have a title that adheres to [conventional commits](https://www.conventionalcommits.org/en/v1.0.0).
-Only PR titles need to be in that format, not individual commits.
-Don't worry if you get this wrong: you can always change the PR title after sending it.
-Check [previously merged PRs](https://github.com/JoshuaKGoldberg/boston-ts-website/pulls?q=is%3Apr+is%3Amerged+-label%3Adependencies+) for reference.
-
 #### Draft PRs
 
 If you don't think your PR is ready for review, [set it as a draft](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request#converting-a-pull-request-to-a-draft).
