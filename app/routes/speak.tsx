@@ -37,8 +37,8 @@ export default function About() {
 					Present a dry run of your talk the week before, so we can check it for
 					accessibility issues and make sure it runs to the expected duration:
 					<ul>
-						<li>Main talk: ~20 minutes</li>
-						<li>Lightning talk: ~10 minutes</li>
+						<li>Full-length talk: about 20 to 30 minutes</li>
+						<li>Lightning talk: about 5 to 10 minutes</li>
 					</ul>
 				</li>
 				<li>Arrive at the meetup before it starts</li>
