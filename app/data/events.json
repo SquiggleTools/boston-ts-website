@@ -8,7 +8,23 @@
 		"date": "2025-07-17T18:00:00.000-04:00",
 		"link": "https://www.eventbrite.com/e/boston-ts-club-july-tickets-1412584912499",
 		"location": "Microsoft NERD Center",
-		"time": "5:30pm - 8:30pm"
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			{
+				"author": {
+					"name": "Josh Goldberg",
+					"url": "https://joshuakgoldberg.com"
+				},
+				"title": "How to Set Up a New TypeScript Project in 2025"
+			},
+			{
+				"author": {
+					"name": "Haley Cormier",
+					"url": "https://www.bluebirdbouquets.com"
+				},
+				"title": "Flowers & Figuring It Out"
+			}
+		]
 	},
 	{
 		"date": "2025-06-24T18:00:00.000-04:00",
