@@ -56,6 +56,10 @@ export function Layout({ back, children, title }: LayoutProps) {
 					<InternalAnchor reloadDocument to="/faq" variant="heavy">
 						FAQ
 					</InternalAnchor>
+					<span className={styles.dot} />
+					<InternalAnchor reloadDocument to="/sponsor" variant="heavy">
+						Sponsor
+					</InternalAnchor>
 				</div>
 				<SocialsList />
 			</footer>
