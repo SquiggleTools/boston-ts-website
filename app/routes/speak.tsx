@@ -24,7 +24,7 @@ export default function About() {
 			</BodyText>
 			<BodyText>
 				<AnchorWithArrow
-					href="https://docs.google.com/forms/d/1QhKIccKVMhEw3htkjwL78190GDFOaYYPAYdcxyLI4AQ"
+					href="https://docs.google.com/forms/d/e/1FAIpQLScBZtggms1lxAwenSkrTRte7bq6JYtQUre7BALrWUihs_taBA/viewform?usp=sf_link"
 					rel="noreferrer"
 					target="_blank"
 				>
