@@ -2,7 +2,16 @@
 	{
 		"date": "2025-08-21T18:00:00.000-04:00",
 		"location": "Microsoft NERD Center",
-		"time": "5:30pm - 8:30pm"
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			{
+				"author": {
+					"name": "Maddy Montaquila",
+					"url": "https://github.com/maddymontaquila"
+				},
+				"title": "Aspire"
+			}
+		]
 	},
 	{
 		"date": "2025-07-17T18:00:00.000-04:00",
