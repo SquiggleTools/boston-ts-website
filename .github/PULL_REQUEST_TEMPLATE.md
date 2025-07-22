@@ -4,7 +4,7 @@ Otherwise we may not be able to review your PR. -->
 
 ## PR Checklist
 
-- [ ] Steps in [CONTRIBUTING.md](https://github.com/JoshuaKGoldberg/boston-ts-website/blob/main/.github/CONTRIBUTING.md) were taken
+- [ ] Steps in [CONTRIBUTING.md](https://github.com/SquiggleTools/boston-ts-website/blob/main/.github/CONTRIBUTING.md) were taken
 
 ## Overview
 

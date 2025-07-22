@@ -5,7 +5,7 @@
 	"description": "The website for BostonTS. Powered by React, Remix, TypeScript, and Vanilla Extract. ✨",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/JoshuaKGoldberg/boston-ts-website"
+		"url": "https://github.com/SquiggleTools/boston-ts-website"
 	},
 	"license": "MIT",
 	"author": {
