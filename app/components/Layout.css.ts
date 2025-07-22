@@ -81,7 +81,9 @@ export const dot = style({
 export const main = style({
 	"@media": {
 		[breakpoints.medium]: {
+			borderRight: `1rem solid ${vars.color.blue}`,
 			margin: "0",
+			paddingRight: "1rem",
 		},
 	},
 	flexGrow: "9001",
