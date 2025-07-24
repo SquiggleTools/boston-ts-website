@@ -8,7 +8,7 @@
 <p align="center">
 	<!-- prettier-ignore-start -->
 	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-	<a href="#contributors" target="_blank"><img alt="👪 All Contributors: 10" src="https://img.shields.io/badge/%F0%9F%91%AA_all_contributors-10-21bb42.svg" /></a>
+	<a href="#contributors" target="_blank"><img alt="👪 All Contributors: 11" src="https://img.shields.io/badge/%F0%9F%91%AA_all_contributors-11-21bb42.svg" /></a>
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 	<!-- prettier-ignore-end -->
 	<a href="https://github.com/SquiggleTools/boston-ts-website/blob/main/.github/CODE_OF_CONDUCT.md" target="_blank"><img alt="🤝 Code of Conduct: Kept" src="https://img.shields.io/badge/%F0%9F%A4%9D_code_of_conduct-kept-21bb42" /></a>
@@ -43,6 +43,7 @@ pnpm dev
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SeanSanker"><img src="https://avatars.githubusercontent.com/u/9062489?v=4?s=100" width="100px;" alt="Sean Sanker"/><br /><sub><b>Sean Sanker</b></sub></a><br /><a href="https://github.com/SquiggleTools/boston-ts-website/commits?author=seansanker" title="Code">💻</a></td>
     </tr>
     <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/wjhsf"><img src="https://avatars.githubusercontent.com/u/62956339?v=4?s=100" width="100px;" alt="Will Harney"/><br /><sub><b>Will Harney</b></sub></a><br /><a href="https://github.com/SquiggleTools/boston-ts-website/commits?author=wjhsf" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://xav.ie"><img src="https://avatars.githubusercontent.com/u/12320165?v=4?s=100" width="100px;" alt="Xavier Ruiz"/><br /><sub><b>Xavier Ruiz</b></sub></a><br /><a href="https://github.com/SquiggleTools/boston-ts-website/commits?author=xav-ie" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/hadleygarrett"><img src="https://avatars.githubusercontent.com/u/124802365?v=4?s=100" width="100px;" alt="hadleygarrett"/><br /><sub><b>hadleygarrett</b></sub></a><br /><a href="https://github.com/SquiggleTools/boston-ts-website/commits?author=hadleygarrett" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/rebecca-millerr"><img src="https://avatars.githubusercontent.com/u/52360419?v=4?s=100" width="100px;" alt="rebecca-millerr"/><br /><sub><b>rebecca-millerr</b></sub></a><br /><a href="https://github.com/SquiggleTools/boston-ts-website/commits?author=rebecca-millerr" title="Code">💻</a></td>
