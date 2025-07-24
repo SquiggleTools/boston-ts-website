@@ -108,6 +108,15 @@
         "ideas",
         "code"
       ]
+    },
+    {
+      "login": "wjhsf",
+      "name": "Will Harney",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62956339?v=4",
+      "profile": "https://github.com/wjhsf",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
