@@ -14,6 +14,13 @@
 			},
 			{
 				"author": {
+					"name": "Josh Goldberg",
+					"url": "https://joshuakgoldberg.com"
+				},
+				"title": "Monthly TypeScript Tip"
+			},
+			{
+				"author": {
 					"name": "Rafael Mendiola",
 					"url": "https://raf.dev"
 				},
