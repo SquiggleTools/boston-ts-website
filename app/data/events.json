@@ -1,5 +1,20 @@
 [
 	{
+		"date": "2025-09-06T18:13:00.000-04:00",
+		"link": "https://www.meetup.com/boston-code-and-coffee/events/310588038",
+		"location": "CIC Cambridge @ 1 Broadway",
+		"time": "1:00pm - 3:00pm",
+		"topics": [
+			{
+				"author": {
+					"name": "Josh Goldberg",
+					"url": "https://joshuakgoldberg.com"
+				},
+				"title": "Introduction to TypeScript"
+			}
+		]
+	},
+	{
 		"date": "2025-08-21T18:00:00.000-04:00",
 		"link": "https://www.eventbrite.com/e/boston-ts-club-august-tickets-1510422356929",
 		"location": "Microsoft NERD Center",
