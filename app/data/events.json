@@ -1,5 +1,29 @@
 [
 	{
+		"date": "2025-10-16T18:00:00.000-04:00",
+		"link": "https://www.eventbrite.com/e/boston-ts-club-august-tickets-1510422356929",
+		"location": "Microsoft NERD Center",
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			{
+				"title": "Monthly TypeScript Tip"
+			},
+			{ "title": "Spooky Scary Storytime" }
+		]
+	},
+	{
+		"date": "2025-09-25T18:00:00.000-04:00",
+		"link": "https://www.eventbrite.com/e/boston-ts-club-august-tickets-1510422356929",
+		"location": "Microsoft NERD Center",
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			{
+				"title": "Monthly TypeScript Tip"
+			},
+			{ "title": "To Be Announced" }
+		]
+	},
+	{
 		"date": "2025-09-06T18:13:00.000-04:00",
 		"link": "https://www.meetup.com/boston-code-and-coffee/events/310588038",
 		"location": "CIC Cambridge @ 1 Broadway",
