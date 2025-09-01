@@ -34,8 +34,9 @@ export default function About() {
 			<BodyText>All we ask is:</BodyText>
 			<UnorderedList>
 				<li>
-					Present a dry run of your talk the week before, so we can check it for
-					accessibility issues and make sure it runs to the expected duration:
+					Present a dry run of your talk two weeks before, so we can check it
+					for accessibility issues and make sure it runs to the expected
+					duration:
 					<ul>
 						<li>Full-length talk: about 20 to 30 minutes</li>
 						<li>Lightning talk: about 5 to 10 minutes</li>
