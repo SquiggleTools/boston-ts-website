@@ -20,7 +20,13 @@
 			{
 				"title": "Monthly TypeScript Tip"
 			},
-			{ "title": "To Be Announced" }
+			{
+				"author": {
+					"name": "Phaedra Sanon",
+					"url": "https://phaedras.space"
+				},
+				"title": "Hackathons and Other Bad Ideas"
+			}
 		]
 	},
 	{
