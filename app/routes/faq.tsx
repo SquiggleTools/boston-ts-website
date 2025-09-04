@@ -59,8 +59,8 @@ export default function FAQ() {
 
 			<Heading level={3}>Is there a dress code?</Heading>
 			<BodyText>
-				Casual street clothing. Most of us wear t-shirts and short/jeans. We
-				intentionally do not have a business casual or formal attire vibe.
+				Casual street clothing. Most of us wear t-shirts and short/jeans. We do
+				not require business casual attire, but you can wear it if you prefer.
 			</BodyText>
 
 			<Heading level={3}>Is there food?</Heading>
