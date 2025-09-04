@@ -12,8 +12,8 @@ Kamath
 Lingenau
 Maddy
 Mariah
-Mitropoulos
 Mendiola
+Mitropoulos
 Montaquila
 Murg
 Ndukwe
@@ -22,4 +22,5 @@ Pariss
 Puskarevic
 Rebecca
 Rizèl
+Sanon
 Scarlett
