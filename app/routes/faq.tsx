@@ -38,9 +38,9 @@ export default function FAQ() {
 			<Heading level={3}>How do I park at your events?</Heading>
 			<BodyText>
 				When meeting at the{" "}
-				<a href="https://maps.app.goo.gl/7TMY5xxytpEHh6CX7">
+				<AnchorWithArrow href="https://maps.app.goo.gl/7TMY5xxytpEHh6CX7">
 					Microsoft NERD center
-				</a>
+				</AnchorWithArrow>
 				, you can park along the water in front of the entrance, or in
 				pay-to-park nearby. There is also a paid parking garage in the building.
 			</BodyText>
