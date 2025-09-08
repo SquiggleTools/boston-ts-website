@@ -1,6 +1,7 @@
 import { MetaFunction } from "@remix-run/node";
 
 import { ExternalAnchor, InternalAnchor } from "~/components/Anchor";
+import { AnchorWithArrow } from "~/components/AnchorWithArrow";
 import { Aside } from "~/components/Aside";
 import { BodyText } from "~/components/BodyText";
 import { Heading } from "~/components/Heading";
@@ -27,9 +28,13 @@ export default function FAQ() {
 			<BodyText>
 				We recommend taking the Red Line to the Kendall/MIT Station, which is a
 				five minute walk away from the{" "}
-				<a href="https://maps.app.goo.gl/7TMY5xxytpEHh6CX7">
+				<AnchorWithArrow
+					href="https://maps.app.goo.gl/7TMY5xxytpEHh6CX7"
+					rel="noreferrer"
+					target="_blank"
+				>
 					Microsoft NERD center
-				</a>
+				</AnchorWithArrow>
 				.
 				<br />
 				There are also several e-bike stations around the building.
@@ -38,7 +43,11 @@ export default function FAQ() {
 			<Heading level={3}>How do I park at your events?</Heading>
 			<BodyText>
 				When meeting at the{" "}
-				<AnchorWithArrow href="https://maps.app.goo.gl/7TMY5xxytpEHh6CX7">
+				<AnchorWithArrow
+					href="https://maps.app.goo.gl/7TMY5xxytpEHh6CX7"
+					rel="noreferrer"
+					target="_blank"
+				>
 					Microsoft NERD center
 				</AnchorWithArrow>
 				, you can park along the water in front of the entrance, or in
