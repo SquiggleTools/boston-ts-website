@@ -1,6 +1,7 @@
 import { MetaFunction } from "@remix-run/node";
 
 import { ExternalAnchor, InternalAnchor } from "~/components/Anchor";
+import { AnchorWithArrow } from "~/components/AnchorWithArrow";
 import { Aside } from "~/components/Aside";
 import { BodyText } from "~/components/BodyText";
 import { Heading } from "~/components/Heading";
@@ -15,11 +16,42 @@ export default function FAQ() {
 		<Layout back title="FAQ">
 			<Heading level={2}>Frequently Asked Questions</Heading>
 
-			<Heading level={3}>What is the parking situation at your events?</Heading>
+			<Heading level={3}>Can I attend if I don't know TypeScript?</Heading>
 			<BodyText>
-				When meeting at the Microsoft NERD Center, you can park along the water
-				in front of the entrance, or in pay-to-park nearby. There is also a paid
-				parking garage in the building.
+				Absolutely! We prep our speakers to know not all attendees will know it.
+				We'd love to have you join our community regardless of experience.
+			</BodyText>
+
+			<Heading level={3}>
+				How do I get to your events by public transit?
+			</Heading>
+			<BodyText>
+				We recommend taking the Red Line to the Kendall/MIT Station, which is a
+				five minute walk away from the{" "}
+				<AnchorWithArrow
+					href="https://maps.app.goo.gl/7TMY5xxytpEHh6CX7"
+					rel="noreferrer"
+					target="_blank"
+				>
+					Microsoft NERD center
+				</AnchorWithArrow>
+				.
+				<br />
+				There are also several e-bike stations around the building.
+			</BodyText>
+
+			<Heading level={3}>How do I park at your events?</Heading>
+			<BodyText>
+				When meeting at the{" "}
+				<AnchorWithArrow
+					href="https://maps.app.goo.gl/7TMY5xxytpEHh6CX7"
+					rel="noreferrer"
+					target="_blank"
+				>
+					Microsoft NERD center
+				</AnchorWithArrow>
+				, you can park along the water in front of the entrance, or in
+				pay-to-park nearby. There is also a paid parking garage in the building.
 			</BodyText>
 
 			<Aside>
@@ -33,6 +65,18 @@ export default function FAQ() {
 				</ExternalAnchor>
 				. Neat!
 			</Aside>
+
+			<Heading level={3}>Is there a dress code?</Heading>
+			<BodyText>
+				Casual street clothing. Most of us wear t-shirts and short/jeans. We do
+				not require business casual attire, but you can wear it if you prefer.
+			</BodyText>
+
+			<Heading level={3}>Is there food?</Heading>
+			<BodyText>
+				We generally have vegan hors d'oeuvres. You're welcome to bring your own
+				food if you need a full meal.
+			</BodyText>
 
 			<Heading level={3}>My company would like to sponsor you!</Heading>
 			<BodyText>
