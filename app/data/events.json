@@ -6,8 +6,12 @@
 		"time": "5:30pm - 8:30pm",
 		"topics": [
 			{
-				"title": "Monthly TypeScript Tip"
+				"author": {
+					"name": "Will Harney"
+				},
+				"title": "Spooky TypeScript: An Introduction to Type-Level Programming"
 			},
+			{ "title": "Monthly TypeScript Tip" },
 			{ "title": "Spooky Scary Storytime" }
 		]
 	},
