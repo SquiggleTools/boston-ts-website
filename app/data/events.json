@@ -1,5 +1,25 @@
 [
 	{
+		"date": "2025-11-20T18:00:00.000-04:00",
+		"location": "Microsoft NERD Center",
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			{
+				"author": {
+					"name": "Robert Balicki"
+				},
+				"title": "Isograph!"
+			},
+			{
+				"author": {
+					"name": "Yona Voss-Andreae"
+				},
+				"title": "Know Your Writes"
+			},
+			{ "title": "Spooky Scary Storytime" }
+		]
+	},
+	{
 		"date": "2025-10-16T18:00:00.000-04:00",
 		"link": "https://www.eventbrite.com/e/boston-ts-club-august-tickets-1510422356929",
 		"location": "Microsoft NERD Center",

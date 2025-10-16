@@ -1,5 +1,7 @@
 Abhijit
 Ajit
+Andreae
+Balicki
 Belsky
 Blass
 Bossé
@@ -9,6 +11,7 @@ Dellecese
 Dimitri
 Farolino
 Harney
+Isograph
 Kamath
 Lingenau
 Maddy
@@ -25,3 +28,5 @@ Rebecca
 Rizèl
 Sanon
 Scarlett
+Voss
+Yona
