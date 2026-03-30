@@ -1,5 +1,20 @@
 [
 	{
+		"date": "2026-04-16T17:30:00.000-04:00",
+		"link": "https://www.eventbrite.com/e/boston-ts-club-april-tickets-1986216148969",
+		"location": "Linksquares - 60 State St Unit 1200",
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			{
+				"author": {
+					"name": "Josh Goldberg"
+				},
+				"title": "What's New in Typescript 6.0"
+			},
+			{ "title": "More Talks TBA" }
+		]
+	},
+	{
 		"date": "2025-11-20T18:00:00.000-04:00",
 		"link": "https://www.eventbrite.com/e/boston-ts-club-november-tickets-1934975567009",
 		"location": "Microsoft NERD Center",
