@@ -16,6 +16,11 @@
 			"source": "/eventbrite"
 		},
 		{
+			"destination": "https://calendar.google.com/calendar/u/0?cid=Y2RmZTA4YjI4MGQyMTZlMWNhZDhhMGFhMmVlMTgyZDRiZmRiZWMyZjM2NGEzZDQ1M2I4YmU4MDNlY2VmNTBkZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+			"permanent": false,
+			"source": "/calendar"
+		},
+		{
 			"destination": "https://docs.google.com/forms/d/e/1FAIpQLSevxqyXjEE2AQ8C7xxkmoiiasr5ONIvPyAl8ad-MseNZ2ZBxA/viewform",
 			"permanent": false,
 			"source": "/feedback"
