@@ -31,7 +31,8 @@ export const site = {
 	description:
 		"A meetup for JavaScript and TypeScript developers in the Boston, MA area.",
 	domain: "bostonts.club",
-	title: "Boston TypeScript Club",
+	longTitle: "Boston TypeScript Club",
+	title: "Boston TS Club",
 } as const;
 
 export const region = {
