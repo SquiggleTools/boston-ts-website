@@ -36,7 +36,7 @@ export default function Index() {
 	const events = useLoaderData<typeof loader>();
 
 	return (
-		<Layout title={["Boston", "TS Club"]}>
+		<Layout headingSize="reduced" title={["Boston", "TypeScript", "Club"]}>
 			<EventsList
 				active
 				descriptor="Upcoming"

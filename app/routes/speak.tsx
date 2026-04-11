@@ -16,7 +16,7 @@ export const meta: MetaFunction = () => createMeta({ page: "Speak", tagline });
 export default function About() {
 	return (
 		<Layout back title="Speak">
-			<Heading level={2}>Speak at Boston TS Club</Heading>
+			<Heading level={2}>Speak at Boston TypeScript Club</Heading>
 			<BodyText>{tagline}</BodyText>
 			<BodyText>
 				We're looking for anything of interest to TypeScript developers,
@@ -28,7 +28,7 @@ export default function About() {
 					rel="noreferrer"
 					target="_blank"
 				>
-					Boston TS Club Speaking Form
+					Boston TypeScript Club Speaking Form
 				</AnchorWithArrow>
 			</BodyText>
 			<BodyText>All we ask is:</BodyText>
