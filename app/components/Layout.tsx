@@ -4,21 +4,23 @@ import { HeroHeading } from "~/components/HeroHeading";
 
 import { InternalAnchor } from "./Anchor";
 import { Arrow } from "./Arrow";
+import { HeroHeadingSize } from "./HeroHeading.css";
 import * as styles from "./Layout.css";
 import { SocialsList } from "./SocialsList";
 
 export interface LayoutProps extends React.PropsWithChildren {
 	back?: boolean;
+	headingSize?: HeroHeadingSize;
 	title: string | string[];
 }
 
-export function Layout({ back, children, title }: LayoutProps) {
+export function Layout({ back, children, headingSize, title }: LayoutProps) {
 	const titles = Array.isArray(title) ? title : [title];
 
 	return (
 		<div className={styles.layout}>
 			<header className={styles.header}>
-				<HeroHeading>
+				<HeroHeading size={headingSize}>
 					{titles.map((text, i) => (
 						<React.Fragment key={text}>
 							<span className={styles.together}>{text}</span>
@@ -28,7 +30,7 @@ export function Layout({ back, children, title }: LayoutProps) {
 				</HeroHeading>
 				{back && (
 					<InternalAnchor to="/" variant="heavy">
-						Boston TS
+						Boston TypeScript Club
 						<Arrow label="Back arrow" variant="back" />
 					</InternalAnchor>
 				)}

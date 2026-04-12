@@ -20,7 +20,10 @@ export const [themeClass, vars] = createTheme({
 	},
 	sizes: {
 		heading: `min(clamp(3rem, 6vw, 5rem), 22.5vh)`,
-		hero: `min(clamp(7rem, 12vw, 15rem), 30vh)`,
+		hero: {
+			normal: `min(clamp(7rem, 12vw, 15rem), 30vh)`,
+			reduced: `min(clamp(4rem, 7vw, 10rem), 30vh)`,
+		},
 		large: `clamp(2rem, 4vw, 3rem)`,
 		medium: `clamp(1.5rem, 4vw, 2.5rem)`,
 		subHeading: `clamp(2.5rem, 5vw, 4rem)`,

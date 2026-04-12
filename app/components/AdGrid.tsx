@@ -13,9 +13,7 @@ export function AdGrid({ month, year }: AdGridProps) {
 				<AdLogo className={styles.image} />
 			</div>
 			<div className={styles.text}>
-				<h1 className={styles.h1}>
-					Boston <span className={styles.together}>TS Club</span>
-				</h1>
+				<h1 className={styles.h1}>Boston TypeScript Club</h1>
 				<p className={styles.p}>
 					{month} {year}
 				</p>

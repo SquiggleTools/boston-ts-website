@@ -15,7 +15,7 @@ export const meta: MetaFunction = () =>
 export default function About() {
 	return (
 		<Layout back title="Sponsor">
-			<Heading level={2}>Sponsor Boston TS Club</Heading>
+			<Heading level={2}>Sponsor Boston TypeScript Club</Heading>
 
 			<BodyText>
 				Thinking about sponsoring us? Awesome! We're excited to work with you

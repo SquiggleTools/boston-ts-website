@@ -53,15 +53,6 @@ export const text = style({
 	textAlign: "center",
 });
 
-export const together = style({
-	"@media": {
-		[breakpoints.medium]: {
-			display: "block",
-		},
-	},
-	display: "inline-block",
-});
-
 export const h1 = style({
 	"@media": {
 		[breakpoints.medium]: {
