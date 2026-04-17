@@ -25,34 +25,35 @@ export function EventDetails({ active, event }: EventDetailsProps) {
 	return (
 		<article className={styles.article}>
 			<h3 className={styles.heading}>{formatDate(event.date)}</h3>
-			<div>{event.location}</div>
 
-			<UnorderedList className={styles.list}>
-				{event.topics?.map((topic) => (
-					<li key={topic.title}>
-						<strong>{topic.title}</strong>
-						{topic.author && (
-							<>
-								{" "}
-								by{" "}
-								{Array.isArray(topic.author) ? (
-									<OxfordCommaList
-										items={topic.author.map((author) => (
-											<Author author={author} />
-										))}
-									/>
-								) : (
-									<Author author={topic.author} />
-								)}
-							</>
-						)}
-					</li>
-				)) ?? (
-					<li>
-						<em>Talks will be announced soon…</em>
-					</li>
-				)}
-			</UnorderedList>
+			{event.location && <div>{event.location}</div>}
+
+			{event.topics ? (
+				<UnorderedList className={styles.list}>
+					{event.topics.map((topic) => (
+						<li key={topic.title}>
+							<strong>{topic.title}</strong>
+							{topic.author && (
+								<>
+									{" "}
+									by{" "}
+									{Array.isArray(topic.author) ? (
+										<OxfordCommaList
+											items={topic.author.map((author) => (
+												<Author author={author} />
+											))}
+										/>
+									) : (
+										<Author author={topic.author} />
+									)}
+								</>
+							)}
+						</li>
+					))}
+				</UnorderedList>
+			) : (
+				<em>Talks will be announced soon…</em>
+			)}
 
 			{event.link && (
 				<AnchorWithArrow href={event.link}>
