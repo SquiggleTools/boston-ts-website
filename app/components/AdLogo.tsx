@@ -8,7 +8,7 @@ export function AdLogo({ className }: AdLogoProps) {
 	// TODO: Re-import the original font into Figma and use that instead
 	return (
 		<svg
-			aria-label="BostonTS Logo"
+			aria-label="Boston TypeScript Logo"
 			className={className}
 			fill="none"
 			height="1000"

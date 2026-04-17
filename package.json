@@ -2,7 +2,7 @@
 	"name": "boston-ts-website",
 	"version": "0.0.0",
 	"private": true,
-	"description": "The website for BostonTS. Powered by React, Remix, TypeScript, and Vanilla Extract. ✨",
+	"description": "The website for Boston TypeScript. Powered by React, Remix, TypeScript, and Vanilla Extract. ✨",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/SquiggleTools/boston-ts-website"
