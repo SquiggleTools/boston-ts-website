@@ -3,24 +3,24 @@
 	"dictionaryDefinitions": [
 		{
 			"name": "speaker-names",
-			"path": "./cspell.speaker-names.txt"
-		}
+			"path": "./cspell.speaker-names.txt",
+		},
 	],
 	"ignorePaths": [
 		".cache",
 		".github",
 		"build",
 		"CHANGELOG.md",
-		"cspell.json",
+		"cspell.jsonc",
 		"node_modules",
 		"pnpm-lock.yaml",
-		"public"
+		"public",
 	],
 	"overrides": [
 		{
 			"filename": "**/*.css.ts",
-			"languageId": "css"
-		}
+			"languageId": "css",
+		},
 	],
 	"words": [
 		"Astori",
@@ -43,6 +43,6 @@
 		// Case sensitivity is respected on forbidden words:
 		"!BostonTS",
 		"!TS",
-		"!Typescript"
-	]
+		"!Typescript",
+	],
 }
