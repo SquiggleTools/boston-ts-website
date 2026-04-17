@@ -1,7 +1,7 @@
-<h1 align="center">The BostonTS Website</h1>
+<h1 align="center">The Boston TypeScript Website</h1>
 
 <p align="center">
-	The website for BostonTS.
+	The website for Boston TypeScript.
 	Powered by React, Remix, TypeScript, and Vanilla Extract. ✨
 </p>
 

@@ -7,13 +7,14 @@
 		}
 	],
 	"ignorePaths": [
-		".github",
-		"CHANGELOG.md",
 		".cache",
+		".github",
 		"build",
-		"public",
+		"CHANGELOG.md",
+		"cspell.json",
 		"node_modules",
-		"pnpm-lock.yaml"
+		"pnpm-lock.yaml",
+		"public"
 	],
 	"overrides": [
 		{
@@ -37,6 +38,11 @@
 		"Sahana",
 		"Sanker",
 		"Storytime",
-		"Supabase"
+		"Supabase",
+
+		// Case sensitivity is respected on forbidden words:
+		"!BostonTS",
+		"!TS",
+		"!Typescript"
 	]
 }
