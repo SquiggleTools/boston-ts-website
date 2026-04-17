@@ -8,7 +8,7 @@ const authorSchema = z.object({
 export const eventSchema = z.object({
 	date: z.coerce.date(),
 	link: z.string().nullish(),
-	location: z.string(),
+	location: z.string().nullish(),
 	time: z.string(),
 	topics: z
 		.array(
