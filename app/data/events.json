@@ -1,7 +1,18 @@
 [
 	{
 		"date": "2026-05-21T17:30:00.000-04:00",
-		"time": "5:30pm - 8:30pm"
+		"link": "https://www.eventbrite.com/e/boston-typescript-club-may-tickets-1987954208552",
+		"location": "Capital One Office - 314 Main St, Cambridge, MA",
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			{
+				"author": {
+					"name": "Josh Goldberg"
+				},
+				"title": "What's New in TypeScript 6.0"
+			},
+			{ "title": "More Talks TBA" }
+		]
 	},
 	{
 		"date": "2025-11-20T18:00:00.000-04:00",
