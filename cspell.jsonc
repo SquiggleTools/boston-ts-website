@@ -23,6 +23,9 @@
 		},
 	],
 	"words": [
+		"!BostonTS",
+		"!TS",
+		"!Typescript",
 		"Astori",
 		"bluesky",
 		"bostonts",
@@ -39,10 +42,6 @@
 		"Sanker",
 		"Storytime",
 		"Supabase",
-
-		// Case sensitivity is respected on forbidden words:
-		"!BostonTS",
-		"!TS",
-		"!Typescript",
+		"Waskiewicz",
 	],
 }

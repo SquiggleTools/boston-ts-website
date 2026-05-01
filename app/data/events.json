@@ -11,7 +11,12 @@
 				},
 				"title": "What's New in TypeScript 6.0"
 			},
-			{ "title": "More Talks TBA" }
+			{
+				"author": {
+					"name": "Ryan Waskiewicz"
+				},
+				"title": "Rewrite it in Rust! (Or Don't)"
+			}
 		]
 	},
 	{
