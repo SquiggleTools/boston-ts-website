@@ -1,5 +1,16 @@
 [
 	{
+		"date": "2026-06-18T17:30:00.000-04:00",
+		"link": "https://www.eventbrite.com/e/boston-typescript-club-tickets-1989841501496",
+		"location": "Tulip - 77 Middlesex Avenue, Suite A, Somerville",
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			{
+				"title": "Talks TBA"
+			}
+		]
+	},
+	{
 		"date": "2026-05-21T17:30:00.000-04:00",
 		"link": "https://www.eventbrite.com/e/boston-typescript-club-may-tickets-1987954208552",
 		"location": "Capital One Office - 314 Main St, Cambridge, MA",
