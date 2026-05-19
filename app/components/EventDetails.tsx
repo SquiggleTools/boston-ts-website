@@ -28,9 +28,9 @@ export function EventDetails({ active, event }: EventDetailsProps) {
 
 			{event.location && <div>{event.location}</div>}
 
-			{event.topics ? (
-				<UnorderedList className={styles.list}>
-					{event.topics.map((topic) => (
+			<UnorderedList className={styles.list}>
+				{event.topics ? (
+					event.topics.map((topic) => (
 						<li key={topic.title}>
 							<strong>{topic.title}</strong>
 							{topic.author && (
@@ -49,11 +49,13 @@ export function EventDetails({ active, event }: EventDetailsProps) {
 								</>
 							)}
 						</li>
-					))}
-				</UnorderedList>
-			) : (
-				<em>Talks will be announced soon…</em>
-			)}
+					))
+				) : (
+					<li>
+						<em>Talks will be announced soon…</em>
+					</li>
+				)}
+			</UnorderedList>
 
 			{event.link && (
 				<AnchorWithArrow href={event.link}>
