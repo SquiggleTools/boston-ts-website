@@ -29,7 +29,7 @@ export function EventDetails({ active, event }: EventDetailsProps) {
 			{event.location && <div>{event.location}</div>}
 
 			<UnorderedList className={styles.list}>
-				{event.topics ? (
+				{event.topics && event.topics.length > 0 ? (
 					event.topics.map((topic) => (
 						<li key={topic.title}>
 							<strong>{topic.title}</strong>
