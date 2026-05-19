@@ -13,7 +13,8 @@
 		"topics": [
 			{
 				"author": {
-					"name": "Josh Goldberg"
+					"name": "Josh Goldberg",
+					"url": "https://joshuakgoldberg.com/"
 				},
 				"title": "What's New in TypeScript 6.0"
 			},
