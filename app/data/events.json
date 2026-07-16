@@ -1,8 +1,24 @@
 [
 	{
 		"date": "2026-07-16T17:30:00.000-04:00",
+		"link": "https://www.eventbrite.com/e/boston-typescript-club-tickets-1992587070567",
 		"location": "Microsoft NERD Center",
-		"time": "5:30pm - 8:30pm"
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			{
+				"author": {
+					"name": "Josh Goldberg",
+					"url": "https://joshuakgoldberg.com/"
+				},
+				"title": "Why is TypeScript Like This?"
+			},
+			{
+				"author": {
+					"name": "Sonia Cook-Broen"
+				},
+				"title": "How to Build a Better World"
+			}
+		]
 	},
 	{
 		"date": "2026-06-25T17:30:00.000-04:00",
