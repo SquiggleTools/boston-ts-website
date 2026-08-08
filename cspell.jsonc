@@ -23,6 +23,7 @@
 		},
 	],
 	"words": [
+		"Agentic",
 		"Astori",
 		"bluesky",
 		"bostonts",
@@ -40,6 +41,7 @@
 		"Sanker",
 		"Somerville",
 		"Storytime",
+		"Structable",
 		"Supabase",
 
 		// Case sensitivity is respected on forbidden words:
