@@ -12,7 +12,12 @@
 				},
 				"title": "The TypeScript I Deleted"
 			},
-			{ "title": "More Talks TBA" }
+			{
+				"author": {
+					"name": "Laird Dornin"
+				},
+				"title": "Structable.ai: Schema-first Infrastructure for Agentic AI"
+			}
 		]
 	},
 	{
