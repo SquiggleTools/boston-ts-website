@@ -14,7 +14,8 @@
 			},
 			{
 				"author": {
-					"name": "Laird Dornin"
+					"name": "Laird Dornin",
+					"url": "https://structable.ai"
 				},
 				"title": "Structable.ai: Schema-first Infrastructure for Agentic AI"
 			}
