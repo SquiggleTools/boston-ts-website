@@ -1,5 +1,10 @@
 [
 	{
+		"date": "2026-11-19T17:30:00.000-05:00",
+		"location": "Microsoft NERD Center",
+		"time": "5:30pm - 8:30pm"
+	},
+	{
 		"date": "2026-08-20T17:30:00.000-04:00",
 		"link": "https://www.eventbrite.com/e/boston-typescript-club-tickets-1995816428664",
 		"location": "Tulip - 77 Middlesex Avenue, Suite A, Somerville",
