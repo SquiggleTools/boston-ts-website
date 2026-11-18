@@ -111,6 +111,12 @@ module.exports = {
 				],
 			},
 		},
+		{
+			files: ["pnpm-workspace.yaml"],
+			rules: {
+				"yml/file-extension": "off",
+			},
+		},
 	],
 	parser: "@typescript-eslint/parser",
 	plugins: [
