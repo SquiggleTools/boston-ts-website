@@ -16,6 +16,7 @@ Farolino
 Harney
 Isograph
 Jacobsohn
+Jameson
 Kamath
 Lingenau
 Maddy
@@ -36,3 +37,4 @@ Scarlett
 Voss
 Waskiewicz
 Yona
+Zabrotski

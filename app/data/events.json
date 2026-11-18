@@ -1,8 +1,25 @@
 [
 	{
 		"date": "2026-11-19T17:30:00.000-05:00",
+		"link": "https://luma.com/spigx9xo",
 		"location": "Microsoft NERD Center",
-		"time": "5:30pm - 8:30pm"
+		"time": "5:30pm - 8:30pm",
+		"topics": [
+			{
+				"author": {
+					"name": "Dan Zabrotski",
+					"url": "https://danzabrotski.com"
+				},
+				"title": "Who's allowed to do that?"
+			},
+			{
+				"author": {
+					"name": "Devin Jameson",
+					"url": "https://www.devinjameson.com"
+				},
+				"title": "Foldkit: Frontend for Agents and Humans"
+			}
+		]
 	},
 	{
 		"date": "2026-08-20T17:30:00.000-04:00",
