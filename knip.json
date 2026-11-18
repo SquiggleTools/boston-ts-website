@@ -1,7 +1,6 @@
 {
 	"$schema": "https://unpkg.com/knip@latest/schema.json",
-	"entry": ["app/root.tsx!"],
-	"ignoreDependencies": ["isbot", "lint-staged"],
+	"ignoreDependencies": ["isbot"],
 	"ignoreExportsUsedInFile": { "interface": true, "type": true },
 	"project": ["app/**/*.ts!", "app/**/*.tsx!"]
 }

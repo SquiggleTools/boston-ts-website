@@ -1,11 +1,11 @@
 import { ExternalAnchor } from "./Anchor";
-import * as styles from "./SocialsList.css";
 import { BlueskyLogo } from "./logos/BlueskyLogo";
 import { DiscordLogo } from "./logos/DiscordLogo";
 import { GitHubLogo } from "./logos/GitHubLogo";
 import { LinkedInLogo } from "./logos/LinkedInLogo";
 import { MastodonLogo } from "./logos/MastodonLogo";
 import { TwitterLogo } from "./logos/TwitterLogo";
+import * as styles from "./SocialsList.css";
 
 const socials = [
 	{
