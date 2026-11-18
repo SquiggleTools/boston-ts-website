@@ -1,5 +1,7 @@
-.all-contributorsrc
-.cache/
-build/
-public/
-pnpm-lock.yaml
+/.all-contributorsrc
+/.cache
+/.husky
+/build
+/dist
+/pnpm-lock.yaml
+/public

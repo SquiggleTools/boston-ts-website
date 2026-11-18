@@ -85,7 +85,7 @@ export default defineConfig(
 		extends: [yml.configs["flat/standard"], yml.configs["flat/prettier"]],
 		files: ["**/*.{yml,yaml}"],
 		rules: {
-			"yml/file-extension": ["error", { extension: "yml" }],
+			"yml/file-extension": "error",
 			"yml/sort-keys": [
 				"error",
 				{ order: { type: "asc" }, pathPattern: "^.*$" },
@@ -95,10 +95,6 @@ export default defineConfig(
 				{ order: { type: "asc" }, pathPattern: "^.*$" },
 			],
 		},
-	},
-	{
-		files: ["pnpm-workspace.yaml"],
-		rules: { "yml/file-extension": "off" },
 	},
 	{
 		extends: [packageJson.configs.recommended, packageJson.configs.stylistic],

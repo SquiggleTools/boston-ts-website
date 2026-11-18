@@ -1,6 +1,6 @@
 .cache/
 .vercel
+/node_modules
 build/
-node_modules/
 public/build/
 temp/

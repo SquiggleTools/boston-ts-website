@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for your interest in contributing to `boston-ts-website`! 💖
+Thanks for your interest in contributing to `boston-ts-website`! ✨
 
 > After this page, see [DEVELOPMENT.md](./DEVELOPMENT.md) for local development instructions.
 
@@ -10,7 +10,8 @@ This project contains a [Contributor Covenant code of conduct](./CODE_OF_CONDUCT
 
 ## Reporting Issues
 
-Please do [report an issue on the issue tracker](https://github.com/SquiggleTools/boston-ts-website/issues/new/choose) if there's any bugfix, documentation improvement, or general enhancement you'd like to see in the repository! Please fully fill out all required fields in the most appropriate issue form.
+Please do [report an issue on the issue tracker](https://github.com/SquiggleTools/boston-ts-website/issues/new/choose) if there's any bugfix, documentation improvement, or general enhancement you'd like to see in the repository!
+Please fully fill out all required fields in the most appropriate issue form.
 
 ## Sending Contributions
 
@@ -24,7 +25,7 @@ There are two steps involved:
 
 With the exception of very small typos, all changes to this repository generally need to correspond to an [unassigned open issue marked as `status: accepting prs` on the issue tracker](https://github.com/SquiggleTools/boston-ts-website/issues?q=is%3Aissue+is%3Aopen+label%3A%22status%3A+accepting+prs%22+no%3Aassignee+).
 If this is your first time contributing, consider searching for [unassigned issues that also have the `good first issue` label](https://github.com/SquiggleTools/boston-ts-website/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22+label%3A%22status%3A+accepting+prs%22+no%3Aassignee+).
-If the issue you'd like to fix isn't found on the issue, see [Reporting Issues](#reporting-issues) for filing your own (please do!).
+If the issue you'd like to fix isn't found on the issue tracker, see [Reporting Issues](#reporting-issues) for filing your own (please do!).
 
 #### Issue Claiming
 
@@ -38,6 +39,11 @@ Please don't post comments asking for permission or stating you will work on an 
 
 Once you've identified an open issue accepting PRs that doesn't yet have a PR sent, you're free to send a pull request.
 Be sure to fill out the pull request template's requested information -- otherwise your PR will likely be closed.
+
+PRs are also expected to have a title that adheres to [conventional commits](https://www.conventionalcommits.org/en/v1.0.0).
+Only PR titles need to be in that format, not individual commits.
+Don't worry if you get this wrong: you can always change the PR title after sending it.
+Check [previously merged PRs](https://github.com/SquiggleTools/boston-ts-website/pulls?q=is%3Apr+is%3Amerged+-label%3Adependencies+) for reference.
 
 #### Draft PRs
 
@@ -88,5 +94,5 @@ Please do ping the maintainer who merged your PR if that doesn't happen within 2
 ## Emojis & Appreciation
 
 If you made it all the way to the end, bravo dear user, we love you.
-Please include your favorite emoji in the bottom of your issues and PRs to signal to us that you did in fact read this file and are trying to conform to it as best as possible.
-💖 is a good starter if you're not sure which to use.
+Please include an emoji in the bottom of your issues and PRs to signal to us that you did in fact read this file and are trying to conform to it as best as possible.
+✨ is a good starter if you're not sure which to use.

@@ -5,7 +5,7 @@
 	"description": "The website for Boston TypeScript. Powered by React, Remix, TypeScript, and Vanilla Extract. ✨",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/SquiggleTools/boston-ts-website"
+		"url": "git+https://github.com/SquiggleTools/boston-ts-website.git"
 	},
 	"license": "MIT",
 	"author": {
@@ -16,11 +16,9 @@
 	"scripts": {
 		"build": "remix vite:build",
 		"dev": "remix vite:dev",
-		"format": "prettier --write .",
+		"format": "prettier .",
 		"lint": "eslint . --max-warnings 0",
 		"lint:knip": "knip",
-		"lint:md": "markdownlint \"**/*.md\" \".github/**/*.md\" --rules sentences-per-line",
-		"lint:packages": "pnpm dedupe --check",
 		"lint:spelling": "cspell \"**\" \".github/**/*\"",
 		"prepare": "husky",
 		"tsc": "tsc"
@@ -62,11 +60,12 @@
 		"husky": "9.1.7",
 		"knip": "6.44.0",
 		"lint-staged": "17.6.0",
-		"markdownlint-cli": "^0.41.0",
 		"prettier": "^3.9.6",
 		"prettier-plugin-curly": "0.4.1",
 		"prettier-plugin-packagejson": "3.1.0",
-		"sentences-per-line": "^0.2.1",
+		"prettier-plugin-padding-lines": "0.1.0",
+		"prettier-plugin-sentences-per-line": "0.2.4",
+		"prettier-plugin-sh": "0.20.0",
 		"typescript": "5.9.3",
 		"typescript-eslint": "8.71.0",
 		"vite": "^5.3.5",

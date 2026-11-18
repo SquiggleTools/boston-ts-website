@@ -10,14 +10,13 @@
 		"moduleResolution": "Bundler",
 		"noEmit": true,
 		"outDir": "lib",
-		"paths": {
-			"~/*": ["./app/*"]
-		},
+		"paths": { "~/*": ["./app/*"] },
 		"resolveJsonModule": true,
+		"rewriteRelativeImportExtensions": true,
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
 		"target": "ES2022"
 	},
-	"include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"]
+	"include": ["**/*.ts", "**/*.tsx", "remix.env.d.ts", "src"]
 }
