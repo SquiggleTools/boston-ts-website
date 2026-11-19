@@ -2,7 +2,8 @@
 
 <p align="center">
 	The website for Boston TypeScript.
-	Powered by React, Remix, TypeScript, and Vanilla Extract. ✨
+	Powered by React, Remix, TypeScript, and Vanilla Extract.
+	✨
 </p>
 
 <p align="center">
@@ -12,7 +13,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 	<!-- prettier-ignore-end -->
 	<a href="https://github.com/SquiggleTools/boston-ts-website/blob/main/.github/CODE_OF_CONDUCT.md" target="_blank"><img alt="🤝 Code of Conduct: Kept" src="https://img.shields.io/badge/%F0%9F%A4%9D_code_of_conduct-kept-21bb42" /></a>
-	<a href="https://github.com/SquiggleTools/boston-ts-website/blob/main/LICENSE.md" target="_blank"><img alt="📝 License: MIT" src="https://img.shields.io/badge/%F0%9F%93%9D_license-MIT-21bb42.svg"></a>
+	<a href="https://github.com/SquiggleTools/boston-ts-website/blob/main/LICENSE.md" target="_blank"><img alt="📝 License: MIT" src="https://img.shields.io/badge/%F0%9F%93%9D_license-MIT-21bb42.svg" /></a>
 	<img alt="💪 TypeScript: Strict" src="https://img.shields.io/badge/%F0%9F%92%AA_typescript-strict-21bb42.svg" />
 </p>
 
@@ -24,6 +25,11 @@ After installing [Node.js](https://nodejs.org) and [pnpm](https://pnpm.io):
 pnpm i
 pnpm dev
 ```
+
+## Development
+
+See [`.github/CONTRIBUTING.md`](./.github/CONTRIBUTING.md), then [`.github/DEVELOPMENT.md`](./.github/DEVELOPMENT.md).
+Thanks! ✨
 
 ## Contributors
 
@@ -60,4 +66,4 @@ pnpm dev
 
 <!-- You can remove this notice if you don't want it 🙂 no worries! -->
 
-> 💙 This package was templated with [`create-typescript-app`](https://github.com/JoshuaKGoldberg/create-typescript-app).
+> 💝 This package was templated with [`create-typescript-app`](https://github.com/JoshuaKGoldberg/create-typescript-app) using the [Bingo framework](https://create.bingo).
