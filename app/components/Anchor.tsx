@@ -5,8 +5,20 @@ import * as styles from "./Anchor.css";
 
 export type AnchorVariant = keyof typeof styles.anchor;
 
+export interface ExternalAnchorProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+	variant?: AnchorVariant;
+}
+
 export interface InternalAnchorProps extends NavLinkProps {
 	variant?: AnchorVariant;
+}
+
+export function ExternalAnchor({
+	className,
+	variant = "default",
+	...props
+}: ExternalAnchorProps) {
+	return <a {...props} className={clsx(styles.anchor[variant], className)} />;
 }
 
 export function InternalAnchor({
@@ -17,17 +29,4 @@ export function InternalAnchor({
 	return (
 		<NavLink {...props} className={clsx(styles.anchor[variant], className)} />
 	);
-}
-
-export interface ExternalAnchorProps
-	extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
-	variant?: AnchorVariant;
-}
-
-export function ExternalAnchor({
-	className,
-	variant = "default",
-	...props
-}: ExternalAnchorProps) {
-	return <a {...props} className={clsx(styles.anchor[variant], className)} />;
 }

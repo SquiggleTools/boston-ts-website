@@ -6,6 +6,12 @@ import { createMeta } from "~/config";
 
 export const meta: MetaFunction = () => createMeta({ page: "Ad" });
 
+export default function Ad() {
+	const { month, year } = useYearAndMonth();
+
+	return <AdGrid month={month} year={year} />;
+}
+
 function useYearAndMonth() {
 	const [searchParams] = useSearchParams();
 
@@ -22,10 +28,4 @@ function useYearAndMonth() {
 	const year = !parsedYear || isNaN(parsedYear) ? currentYear : parsedYear;
 
 	return { month, year };
-}
-
-export default function Ad() {
-	const { month, year } = useYearAndMonth();
-
-	return <AdGrid month={month} year={year} />;
 }

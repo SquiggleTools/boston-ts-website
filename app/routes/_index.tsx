@@ -1,5 +1,5 @@
 import { useLoaderData } from "@remix-run/react";
-import { LinksFunction, MetaFunction, json } from "@vercel/remix";
+import { json, LinksFunction, MetaFunction } from "@vercel/remix";
 
 import { EventsList } from "~/components/EventsList";
 import { Layout } from "~/components/Layout";
